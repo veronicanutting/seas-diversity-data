@@ -1,2 +1,30 @@
 
-/* ADD YOUR STYLES HERE */
+h1 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: maroon;
+}
+
+h2 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: maroon;
+}
+
+h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h4 {
+    padding-top: 10px;
+}
+
+img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Arial Black";
+}
