@@ -1,0 +1,979 @@
+{
+  "name": "SEAS Undergraduates",
+  "color": "#FFF",
+  "children": [
+    {
+      "name": "Applied Mathematics (A.B.)",
+      "color": "#DADFE1",
+      "children": [
+        {
+          "name": "Male",
+          "color": "#DADFE1",
+          "children": [
+            {
+              "name": "International",
+              "size": 39
+            },
+            {
+              "name": "Unknown",
+              "size": 7
+            },
+            {
+              "name": "Hispanic",
+              "size": 17
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 41
+            },
+            {
+              "name": "Black",
+              "size": 8
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 78
+            },
+            {
+              "name": "Other",
+              "size": 6
+            }
+          ]
+        },
+        {
+          "name": "Female",
+          "color": "#DADFE1",
+          "children": [
+            {
+              "name": "International",
+              "size": 25
+            },
+            {
+              "name": "Unknown",
+              "size": 0
+            },
+            {
+              "name": "Hispanic",
+              "size": 12
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 39
+            },
+            {
+              "name": "Black",
+              "size": 6
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 33
+            },
+            {
+              "name": "Other",
+              "size": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Biomedical Engineering (A.B.)",
+      "color": "#CF000F",
+      "children": [
+        {
+          "name": "Male",
+          "color": "#CF000F",
+          "children": [
+            {"name": "International", "size": 2},
+            {"name": "Unknown", "size": 0},
+            {"name": "Hispanic", "size": 2},
+            {"name": "Native American", "size": 0},
+            {"name": "Asian", "size": 4},
+            {"name": "Black", "size": 1},
+            {"name": "Pacific Islander", "size": 0},
+            {"name": "White", "size": 5},
+            {"name": "Other", "size": 0}
+          ]
+        },
+        {
+          "name":"Female",
+          "color": "#CF000F",
+          "children": [
+            {"name": "International", "size": 4},
+            {"name": "Unknown", "size": 0},
+            {"name": "Hispanic", "size": 3},
+            {"name": "Native American", "size": 0},
+            {"name": "Asian", "size": 6},
+            {"name": "Black", "size": 2},
+            {"name": "Pacific Islander", "size": 0},
+            {"name": "White", "size": 6},
+            {"name": "Other", "size": 1}
+          ]
+        }
+      ]
+    },
+
+    {
+      "name":"Computer Science (A.B.)",
+      "color": "#87D37C",
+      "children": [
+        {
+          "name":"Male",
+          "color": "#87D37C",
+          "children": [
+            {"name": "International", "size": 70},
+            {"name": "Unknown", "size": 5},
+            {"name": "Hispanic", "size": 20},
+            {"name": "Native American", "size": 1},
+            {"name": "Asian", "size": 93},
+            {"name": "Black", "size": 10},
+            {"name": "Pacific Islander", "size": 1},
+            {"name": "White", "size": 107},
+            {"name": "Other", "size": 22}
+          ]
+        },
+        {
+          "name":"Female",
+          "color": "#87D37C",
+          "children": [
+            {"name": "International", "size": 24},
+            {"name": "Unknown", "size": 3},
+            {"name": "Hispanic", "size": 14},
+            {"name": "Native American", "size": 0},
+            {"name": "Asian", "size": 57},
+            {"name": "Black", "size": 7},
+            {"name": "Pacific Islander", "size": 0},
+            {"name": "White", "size": 32},
+            {"name": "Other", "size": 9}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electrical Engineering (S.B.)",
+      "color": "#4ECDC4",
+      "children": [
+        {
+          "name": "Male",
+          "color": "#4ECDC4",
+          "children": [
+            {
+              "name": "International",
+              "size": 11
+            },
+            {
+              "name": "Unknown",
+              "size": 1
+            },
+            {
+              "name": "Hispanic",
+              "size": 1
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 5
+            },
+            {
+              "name": "Black",
+              "size": 4
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 5
+            },
+            {
+              "name": "Other",
+              "size": 5
+            }
+          ]
+        },
+        {
+          "name": "Female",
+          "color": "#4ECDC4",
+          "children": [
+            {
+              "name": "International",
+              "size": 0
+            },
+            {
+              "name": "Unknown",
+              "size": 0
+            },
+            {
+              "name": "Hispanic",
+              "size": 1
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 5
+            },
+            {
+              "name": "Black",
+              "size": 0
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 6
+            },
+            {
+              "name": "Other",
+              "size": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engineering Sciences (A.B.)",
+      "color": "#90C695",
+      "children": [
+        {
+          "name": "Male",
+          "color": "#90C695",
+          "children": [
+            {
+              "name": "International",
+              "size": 1
+            },
+            {
+              "name": "Unknown",
+              "size": 0
+            },
+            {
+              "name": "Hispanic",
+              "size": 0
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 0
+            },
+            {
+              "name": "Black",
+              "size": 0
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 1
+            },
+            {
+              "name": "Other",
+              "size": 0
+            }
+          ]
+        },
+        {
+          "name": "Female",
+          "color": "#90C695",
+          "children": [
+            {
+              "name": "International",
+              "size": 0
+            },
+            {
+              "name": "Unknown",
+              "size": 0
+            },
+            {
+              "name": "Hispanic",
+              "size": 0
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 2
+            },
+            {
+              "name": "Black",
+              "size": 0
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 1
+            },
+            {
+              "name": "Other",
+              "size": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engineering Sciences (S.B.)",
+      "color": "#4183D7",
+      "children": [
+        {
+          "name": "Male",
+          "color": "#4183D7",
+          "children": [
+            {
+              "name": "International",
+              "size": 0
+            },
+            {
+              "name": "Unknown",
+              "size": 0
+            },
+            {
+              "name": "Hispanic",
+              "size": 0
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 1
+            },
+            {
+              "name": "Black",
+              "size": 2
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 5
+            },
+            {
+              "name": "Other",
+              "size": 1
+            }
+          ]
+        },
+        {
+          "name": "Female",
+          "color": "#4183D7",
+          "children": [
+            {
+              "name": "International",
+              "size": 2
+            },
+            {
+              "name": "Unknown",
+              "size": 0
+            },
+            {
+              "name": "Hispanic",
+              "size": 2
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 1
+            },
+            {
+              "name": "Black",
+              "size": 1
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 6
+            },
+            {
+              "name": "Other",
+              "size": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engineering Sciences - Bioengineering (S.B.)",
+      "color": "#DB0A5B",
+      "children": [
+        {
+          "name": "Male",
+          "color": "#DB0A5B",
+          "children": [
+            {
+              "name": "International",
+              "size": 6
+            },
+            {
+              "name": "Unknown",
+              "size": 0
+            },
+            {
+              "name": "Hispanic",
+              "size": 1
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 3
+            },
+            {
+              "name": "Black",
+              "size": 5
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 7
+            },
+            {
+              "name": "Other",
+              "size": 1
+            }
+          ]
+        },
+        {
+          "name": "Female",
+          "color": "#DB0A5B",
+          "children": [
+            {
+              "name": "International",
+              "size": 2
+            },
+            {
+              "name": "Unknown",
+              "size": 0
+            },
+            {
+              "name": "Hispanic",
+              "size": 3
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 5
+            },
+            {
+              "name": "Black",
+              "size": 3
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 7
+            },
+            {
+              "name": "Other",
+              "size": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engineering Sciences - Biomedical Sciences and Engineering (A.B.)",
+      "color": "#5AD427",
+      "children": [
+        {
+          "name": "Male",
+          "color": "#5AD427",
+          "children": [
+            {
+              "name": "International",
+              "size": 0
+            },
+            {
+              "name": "Unknown",
+              "size": 0
+            },
+            {
+              "name": "Hispanic",
+              "size": 0
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 0
+            },
+            {
+              "name": "Black",
+              "size": 1
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 1
+            },
+            {
+              "name": "Other",
+              "size": 0
+            }
+          ]
+        },
+        {
+          "name": "Female",
+          "color": "#5AD427",
+          "children": [
+            {
+              "name": "International",
+              "size": 0
+            },
+            {
+              "name": "Unknown",
+              "size": 0
+            },
+            {
+              "name": "Hispanic",
+              "size": 1
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 1
+            },
+            {
+              "name": "Black",
+              "size": 2
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 0
+            },
+            {
+              "name": "Other",
+              "size": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engineering Sciences - Electrical and Computer Engineering (A.B.)",
+      "color": "#81CFE0",
+      "children": [
+        {
+          "name": "Male",
+          "color": "#81CFE0",
+          "children": [
+            {
+              "name": "International",
+              "size": 1
+            },
+            {
+              "name": "Unknown",
+              "size": 0
+            },
+            {
+              "name": "Hispanic",
+              "size": 1
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 1
+            },
+            {
+              "name": "Black",
+              "size": 1
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 1
+            },
+            {
+              "name": "Other",
+              "size": 0
+            }
+          ]
+        },
+        {
+          "name": "Female",
+          "color": "#81CFE0",
+          "children": [
+            {
+              "name": "International",
+              "size": 1
+            },
+            {
+              "name": "Unknown",
+              "size": 0
+            },
+            {
+              "name": "Hispanic",
+              "size": 1
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 0
+            },
+            {
+              "name": "Black",
+              "size": 0
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 0
+            },
+            {
+              "name": "Other",
+              "size": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engineering Sciences - Mechanical and Materials Science and Engineering (A.B.)",
+      "color": "#86a531",
+      "children": [
+        {
+          "name": "Male",
+          "color": "#86a531",
+          "children": [
+            {
+              "name": "International",
+              "size": 0
+            },
+            {
+              "name": "Unknown",
+              "size": 0
+            },
+            {
+              "name": "Hispanic",
+              "size": 1
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 1
+            },
+            {
+              "name": "Black",
+              "size": 0
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 2
+            },
+            {
+              "name": "Other",
+              "size": 0
+            }
+          ]
+        },
+        {
+          "name": "Female",
+          "color": "#86a531",
+          "children": [
+            {
+              "name": "International",
+              "size": 1
+            },
+            {
+              "name": "Unknown",
+              "size": 1
+            },
+            {
+              "name": "Hispanic",
+              "size": 0
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 0
+            },
+            {
+              "name": "Black",
+              "size": 0
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 2
+            },
+            {
+              "name": "Other",
+              "size": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Environmental Science and Engineering (A.B.)",
+      "color": "#f267ff",
+      "children": [
+        {
+          "name": "Male",
+          "color": "#f267ff",
+          "children": [
+            {
+              "name": "International",
+              "size": 0
+            },
+            {
+              "name": "Unknown",
+              "size": 0
+            },
+            {
+              "name": "Hispanic",
+              "size": 0
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 0
+            },
+            {
+              "name": "Black",
+              "size": 1
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 2
+            },
+            {
+              "name": "Other",
+              "size": 1
+            }
+          ]
+        },
+        {
+          "name": "Female",
+          "color": "#f267ff",
+          "children": [
+            {
+              "name": "International",
+              "size": 0
+            },
+            {
+              "name": "Unknown",
+              "size": 0
+            },
+            {
+              "name": "Hispanic",
+              "size": 1
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 2
+            },
+            {
+              "name": "Black",
+              "size": 0
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 4
+            },
+            {
+              "name": "Other",
+              "size": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mechanical Engineering (S.B.)",
+      "color": "#28ffd4",
+      "children": [
+        {
+          "name": "Male",
+          "color": "#28ffd4",
+          "children": [
+            {
+              "name": "International",
+              "size": 8
+            },
+            {
+              "name": "Unknown",
+              "size": 1
+            },
+            {
+              "name": "Hispanic",
+              "size": 8
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 3
+            },
+            {
+              "name": "Black",
+              "size": 4
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 23
+            },
+            {
+              "name": "Other",
+              "size": 5
+            }
+          ]
+        },
+        {
+          "name": "Female",
+          "color": "#28ffd4",
+          "children": [
+            {
+              "name": "International",
+              "size": 4
+            },
+            {
+              "name": "Unknown",
+              "size": 1
+            },
+            {
+              "name": "Hispanic",
+              "size": 2
+            },
+            {
+              "name": "Native American",
+              "size": 0
+            },
+            {
+              "name": "Asian",
+              "size": 4
+            },
+            {
+              "name": "Black",
+              "size": 1
+            },
+            {
+              "name": "Pacific Islander",
+              "size": 0
+            },
+            {
+              "name": "White",
+              "size": 5
+            },
+            {
+              "name": "Other",
+              "size": 1
+            }
+          ]
+        }
+      ]
+    }
+    ]
+    }

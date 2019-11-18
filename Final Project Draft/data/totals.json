@@ -1,0 +1,397 @@
+{
+  "Applied Mathematics (A.B.)" : [
+    {
+      "Male" : [
+        {
+          "International": 39,
+          "Unknown": 7,
+          "Hispanic": 17,
+          "Native_American": 0,
+          "Asian": 41,
+          "Black": 8,
+          "Pacific_Islander": 0,
+          "White": 78,
+          "Other": 6
+        }
+        ]
+    },
+    {
+      "Female" : [
+        {
+          "International": 25,
+          "Unknown": 0,
+          "Hispanic": 12,
+          "Native_American": 0,
+          "Asian": 39,
+          "Black": 6,
+          "Pacific_Islander": 0,
+          "White": 33,
+          "Other": 9
+        }
+        ]
+    }
+  ],
+
+  "Biomedical Engineering (A.B.)" : [
+    {
+      "Male" : [
+        {
+          "International": 2,
+          "Unknown": 0,
+          "Hispanic": 2,
+          "Native_American": 0,
+          "Asian": 4,
+          "Black": 1,
+          "Pacific_Islander": 0,
+          "White": 5,
+          "Other": 0
+        }
+        ]
+    },
+    {
+      "Female" : [
+        {
+      "International": 4,
+      "Unknown": 0,
+      "Hispanic": 3,
+      "Native_American": 0,
+      "Asian": 6,
+      "Black": 2,
+      "Pacific_Islander": 0,
+      "White": 6,
+      "Other": 1
+        }
+      ]
+    }
+  ],
+
+  "Computer Science (A.B.)" : [
+    {
+      "Male" : [
+        {
+      "International": 70,
+      "Unknown": 5,
+      "Hispanic": 20,
+      "Native_American": 1,
+      "Asian": 93,
+      "Black": 10,
+      "Pacific_Islander": 1,
+      "White": 107,
+      "Other": 22
+        }
+      ]
+    },
+    {
+      "Female": [
+        {
+          "International": 24,
+          "Unknown": 3,
+          "Hispanic": 14,
+          "Native_American": 0,
+          "Asian": 57,
+          "Black": 7,
+          "Pacific_Islander": 0,
+          "White": 32,
+          "Other": 9
+        }
+      ]
+    }
+  ],
+
+  "Electrical Engineering (S.B.)" : [
+    {
+      "Male" : [
+        {
+      "International": 11,
+      "Unknown": 1,
+      "Hispanic": 1,
+      "Native_American": 0,
+      "Asian": 5,
+      "Black": 4,
+      "Pacific_Islander": 0,
+      "White": 5,
+      "Other": 5
+        }
+      ]
+    },
+    {
+      "Female" : [
+        {
+      "International": 0,
+      "Unknown": 0,
+      "Hispanic": 1,
+      "Native_American": 0,
+      "Asian": 5,
+      "Black": 0,
+      "Pacific_Islander": 0,
+      "White": 6,
+      "Other": 1
+        }
+      ]
+    }
+  ],
+
+  "Engineering Sciences (A.B.)" : [
+    {
+      "Male" : [
+        {
+      "International": 1,
+      "Unknown": 0,
+      "Hispanic": 0,
+      "Native_American": 0,
+      "Asian": 0,
+      "Black": 0,
+      "Pacific_Islander": 0,
+      "White": 1,
+      "Other": 0
+        }
+      ]
+    },
+    {
+      "Female" : [
+        {
+      "International": 0,
+      "Unknown": 0,
+      "Hispanic": 0,
+      "Native_American": 0,
+      "Asian": 2,
+      "Black": 0,
+      "Pacific_Islander": 0,
+      "White": 1,
+      "Other": 0
+        }
+      ]
+    }
+  ],
+
+  "Engineering Sciences (S.B.)" : [
+    {
+      "Male" : [
+        {
+      "International": 0,
+      "Unknown": 0,
+      "Hispanic": 0,
+      "Native_American": 0,
+      "Asian": 1,
+      "Black": 2,
+      "Pacific_Islander": 0,
+      "White": 5,
+      "Other": 1
+        }
+      ]
+    },
+    {
+      "Female" : [
+        {
+      "International": 2,
+      "Unknown": 0,
+      "Hispanic": 2,
+      "Native_American": 0,
+      "Asian": 1,
+      "Black": 1,
+      "Pacific_Islander": 0,
+      "White": 6,
+      "Other": 2
+        }
+      ]
+    }
+  ],
+
+  "Engineering Sciences - Bioengineering (S.B.)" : [
+    {
+      "Male" : [
+        {
+      "International": 6,
+      "Unknown": 0,
+      "Hispanic": 1,
+      "Native_American": 0,
+      "Asian": 3,
+      "Black": 5,
+      "Pacific_Islander": 0,
+      "White": 7,
+      "Other": 1
+        }
+      ]
+    },
+    {
+      "Female" : [
+        {
+      "International": 2,
+      "Unknown": 0,
+      "Hispanic": 3,
+      "Native_American": 0,
+      "Asian": 5,
+      "Black": 3,
+      "Pacific_Islander": 0,
+      "White": 7,
+      "Other": 2
+        }
+      ]
+    }
+  ],
+
+  "Engineering Sciences - Biomedical Sciences and Engineering (A.B.)" : [
+    {
+      "Male" : [
+      {
+      "International": 0,
+      "Unknown": 0,
+      "Hispanic": 0,
+      "Native_American": 0,
+      "Asian": 0,
+      "Black": 1,
+      "Pacific_Islander": 0,
+      "White": 1,
+      "Other": 0
+      }
+      ]
+    },
+    {
+      "Female" : [
+        {
+      "International": 0,
+      "Unknown": 0,
+      "Hispanic": 1,
+      "Native_American": 0,
+      "Asian": 1,
+      "Black": 2,
+      "Pacific_Islander": 0,
+      "White": 0,
+      "Other": 1
+        }
+      ]
+    }
+  ],
+
+  "Engineering Sciences - Electrical and Computer Engineering (A.B.)" : [
+    {
+      "Male" : [
+        {
+      "International": 1,
+      "Unknown": 0,
+      "Hispanic": 1,
+      "Native_American": 0,
+      "Asian": 1,
+      "Black": 1,
+      "Pacific_Islander": 0,
+      "White": 1,
+      "Other": 0
+        }
+      ]
+    },
+    {
+      "Female" : [
+        {
+      "International": 1,
+      "Unknown": 0,
+      "Hispanic": 1,
+      "Native_American": 0,
+      "Asian": 0,
+      "Black": 0,
+      "Pacific_Islander": 0,
+      "White": 0,
+      "Other": 1
+        }
+      ]
+    }
+  ],
+
+  "Engineering Sciences - Mechanical and Materials Science and Engineering (A.B.)" : [
+    {
+      "Male" : [
+        {
+      "International": 0,
+      "Unknown": 0,
+      "Hispanic": 1,
+      "Native_American": 0,
+      "Asian": 1,
+      "Black": 0,
+      "Pacific_Islander": 0,
+      "White": 2,
+      "Other": 0
+        }
+      ]
+    },
+    {
+      "Female" : [
+        {
+      "International": 1,
+      "Unknown": 1,
+      "Hispanic": 0,
+      "Native_American": 0,
+      "Asian": 0,
+      "Black": 0,
+      "Pacific_Islander": 0,
+      "White": 2,
+      "Other": 2
+        }
+      ]
+    }
+  ],
+
+  "Environmental Science and Engineering (A.B.)" : [
+    {
+      "Male" : [
+        {
+      "International": 0,
+      "Unknown": 0,
+      "Hispanic": 0,
+      "Native_American": 0,
+      "Asian": 0,
+      "Black": 1,
+      "Pacific_Islander": 0,
+      "White": 2,
+      "Other": 1
+        }
+      ]
+    },
+    {
+      "Female" : [
+        {
+      "International": 0,
+      "Unknown": 0,
+      "Hispanic": 1,
+      "Native_American": 0,
+      "Asian": 2,
+      "Black": 0,
+      "Pacific_Islander": 0,
+      "White": 4,
+      "Other": 0
+        }
+      ]
+    }
+  ],
+
+  "Mechanical Engineering (S.B.)" : [
+    {
+      "Male" : [
+        {
+      "International": 8,
+      "Unknown": 1,
+      "Hispanic": 8,
+      "Native_American": 0,
+      "Asian": 3,
+      "Black": 4,
+      "Pacific_Islander": 0,
+      "White": 23,
+      "Other": 5
+        }
+      ]
+    },
+    {
+      "Female" : [
+        {
+      "International": 4,
+      "Unknown": 1,
+      "Hispanic": 2,
+      "Native_American": 0,
+      "Asian": 4,
+      "Black": 1,
+      "Pacific_Islander": 0,
+      "White": 5,
+      "Other": 1
+        }
+      ]
+    }
+  ]
+}
