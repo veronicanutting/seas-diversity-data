@@ -4,11 +4,11 @@
   "children": [
     {
       "name": "Applied Mathematics (A.B.)",
-      "color": "#DADFE1",
+      "color": "#cc0000",
       "children": [
         {
           "name": "Male",
-          "color": "#DADFE1",
+          "color": "#DE1212",
           "children": [
             {
               "name": "International",
@@ -50,7 +50,7 @@
         },
         {
           "name": "Female",
-          "color": "#DADFE1",
+          "color": "#F02424",
           "children": [
             {
               "name": "International",
@@ -94,11 +94,11 @@
     },
     {
       "name": "Biomedical Engineering (A.B.)",
-      "color": "#CF000F",
+      "color": "#ff5050",
       "children": [
         {
           "name": "Male",
-          "color": "#CF000F",
+          "color": "#FF6262",
           "children": [
             {"name": "International", "size": 2},
             {"name": "Unknown", "size": 0},
@@ -113,7 +113,7 @@
         },
         {
           "name":"Female",
-          "color": "#CF000F",
+          "color": "#FF7474",
           "children": [
             {"name": "International", "size": 4},
             {"name": "Unknown", "size": 0},
@@ -131,11 +131,11 @@
 
     {
       "name":"Computer Science (A.B.)",
-      "color": "#87D37C",
+      "color": "#ffcc00",
       "children": [
         {
           "name":"Male",
-          "color": "#87D37C",
+          "color": "#FFDE12",
           "children": [
             {"name": "International", "size": 70},
             {"name": "Unknown", "size": 5},
@@ -150,7 +150,7 @@
         },
         {
           "name":"Female",
-          "color": "#87D37C",
+          "color": "#FFF024",
           "children": [
             {"name": "International", "size": 24},
             {"name": "Unknown", "size": 3},
@@ -167,11 +167,11 @@
     },
     {
       "name": "Electrical Engineering (S.B.)",
-      "color": "#4ECDC4",
+      "color": "#ff6600",
       "children": [
         {
           "name": "Male",
-          "color": "#4ECDC4",
+          "color": "#FF7812",
           "children": [
             {
               "name": "International",
@@ -213,7 +213,7 @@
         },
         {
           "name": "Female",
-          "color": "#4ECDC4",
+          "color": "#FF8A24",
           "children": [
             {
               "name": "International",
@@ -257,11 +257,11 @@
     },
     {
       "name": "Engineering Sciences (A.B.)",
-      "color": "#90C695",
+      "color": "#ffff99",
       "children": [
         {
           "name": "Male",
-          "color": "#90C695",
+          "color": "#EDED87",
           "children": [
             {
               "name": "International",
@@ -303,7 +303,7 @@
         },
         {
           "name": "Female",
-          "color": "#90C695",
+          "color": "#DBDB75",
           "children": [
             {
               "name": "International",
@@ -347,11 +347,11 @@
     },
     {
       "name": "Engineering Sciences (S.B.)",
-      "color": "#4183D7",
+      "color": "#bfff80",
       "children": [
         {
           "name": "Male",
-          "color": "#4183D7",
+          "color": "#ADED6E",
           "children": [
             {
               "name": "International",
@@ -393,7 +393,7 @@
         },
         {
           "name": "Female",
-          "color": "#4183D7",
+          "color": "#9BDB5C",
           "children": [
             {
               "name": "International",
@@ -437,11 +437,11 @@
     },
     {
       "name": "Engineering Sciences - Bioengineering (S.B.)",
-      "color": "#DB0A5B",
+      "color": "#33cc33",
       "children": [
         {
           "name": "Male",
-          "color": "#DB0A5B",
+          "color": "#45DE45",
           "children": [
             {
               "name": "International",
@@ -483,7 +483,7 @@
         },
         {
           "name": "Female",
-          "color": "#DB0A5B",
+          "color": "#57F057",
           "children": [
             {
               "name": "International",
@@ -527,11 +527,11 @@
     },
     {
       "name": "Engineering Sciences - Biomedical Sciences and Engineering (A.B.)",
-      "color": "#5AD427",
+      "color": "#00bfff",
       "children": [
         {
           "name": "Male",
-          "color": "#5AD427",
+          "color": "#12D1FF",
           "children": [
             {
               "name": "International",
@@ -573,7 +573,7 @@
         },
         {
           "name": "Female",
-          "color": "#5AD427",
+          "color": "#24E3FF",
           "children": [
             {
               "name": "International",
@@ -617,11 +617,11 @@
     },
     {
       "name": "Engineering Sciences - Electrical and Computer Engineering (A.B.)",
-      "color": "#81CFE0",
+      "color": "#3366ff",
       "children": [
         {
           "name": "Male",
-          "color": "#81CFE0",
+          "color": "#4578FF",
           "children": [
             {
               "name": "International",
@@ -663,7 +663,7 @@
         },
         {
           "name": "Female",
-          "color": "#81CFE0",
+          "color": "#578AFF",
           "children": [
             {
               "name": "International",
@@ -707,11 +707,11 @@
     },
     {
       "name": "Engineering Sciences - Mechanical and Materials Science and Engineering (A.B.)",
-      "color": "#86a531",
+      "color": "#6666ff",
       "children": [
         {
           "name": "Male",
-          "color": "#86a531",
+          "color": "#7878FF",
           "children": [
             {
               "name": "International",
@@ -753,7 +753,7 @@
         },
         {
           "name": "Female",
-          "color": "#86a531",
+          "color": "#8A8AFF",
           "children": [
             {
               "name": "International",
@@ -797,11 +797,11 @@
     },
     {
       "name": "Environmental Science and Engineering (A.B.)",
-      "color": "#f267ff",
+      "color": "#9933ff",
       "children": [
         {
           "name": "Male",
-          "color": "#f267ff",
+          "color": "#AB45FF",
           "children": [
             {
               "name": "International",
@@ -843,7 +843,7 @@
         },
         {
           "name": "Female",
-          "color": "#f267ff",
+          "color": "#BD57FF",
           "children": [
             {
               "name": "International",
@@ -887,11 +887,11 @@
     },
     {
       "name": "Mechanical Engineering (S.B.)",
-      "color": "#28ffd4",
+      "color": "#b300b3",
       "children": [
         {
           "name": "Male",
-          "color": "#28ffd4",
+          "color": "#C512C5",
           "children": [
             {
               "name": "International",
@@ -933,7 +933,7 @@
         },
         {
           "name": "Female",
-          "color": "#28ffd4",
+          "color": "#D724D7",
           "children": [
             {
               "name": "International",
