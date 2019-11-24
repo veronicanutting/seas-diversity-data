@@ -29,4 +29,24 @@ h1, h2, h3, h4 {
     font-family: "Arial Black";
 }
 
+.tooltip-circle {
+    fill: #96AB96;
+}
 
+.tooltip-title {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.d3-tip {
+    line-height: 1;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+}
+
+#sunburst {
+    text-align: center;
+}

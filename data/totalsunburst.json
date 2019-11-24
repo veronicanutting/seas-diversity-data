@@ -150,7 +150,7 @@
         },
         {
           "name":"Female",
-          "color": "#FFF024",
+          "color": "#F5C200",
           "children": [
             {"name": "International", "size": 24},
             {"name": "Unknown", "size": 3},
