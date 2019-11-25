@@ -87,6 +87,21 @@ queue()
             step: 1
         });
 
+        $("#play").click(playVis);
+
+        function playVis() {
+            var id = window.setInterval(moveSlider, 1500);
+            var yr = 2007;
+            function moveSlider() {
+                if(yr > 2018) {
+                    window.clearInterval(id);
+                } else {
+                    slider.noUiSlider.set(yr);
+                    yr++;
+                }
+            }
+        }
+
         slider.noUiSlider.on('update', function(values, handle){
             var year = values[handle].toString();
 
