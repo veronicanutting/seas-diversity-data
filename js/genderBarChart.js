@@ -74,7 +74,7 @@ queue()
         var slider = document.getElementById('slider');
 
         noUiSlider.create(slider, {
-            start: 2018,
+            start: 2007,
             animate: false,
             range: {
                 'min': 2007,
