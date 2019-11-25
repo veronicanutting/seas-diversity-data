@@ -50,3 +50,45 @@ h1, h2, h3, h4 {
 #sunburst {
     text-align: center;
 }
+
+.bar {
+    fill: #b3504b;
+}
+
+.newBar {
+    fill: #f9abb5;
+}
+
+.axis {
+    font: 10px sans-serif;
+    fill: #333;
+}
+
+.axis-title {
+    fill: #9C8B83;
+    font-size: 11px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #333;
+    shape-rendering: crispEdges;
+}
+
+.x-axis {
+    font-size: 12px;
+}
+
+.x-axis path {
+    display: none;
+}
+
+#genderBarChart {
+    text-align: center;
+}
+
+#slider {
+    width: 25%;
+}
+
