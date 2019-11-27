@@ -7,8 +7,6 @@ queue()
 function createVis(error, data){
     if(error) { console.log(error); };
 
-    console.log(data);
-
     // set width, height, and radius
     var width = 600,
         height = 600,

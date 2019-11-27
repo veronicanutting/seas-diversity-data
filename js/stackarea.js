@@ -43,6 +43,15 @@ var dataCategories = ["Classics", "Comparative Literature",
 var colorScale = d3.scaleOrdinal(d3.schemeReds[30])
 	.domain(dataCategories);
 
+// Try this!
+// var colors = dataCategories.map(function (d, i) {
+// 	return d3.interpolateReds(i / dataCategories.length);
+// });
+//
+// var colorScale = d3.scaleOrdinal()
+// 	.domain(dataCategories)
+// 	.range(colors);
+
 var parseTime = d3.timeParse("%Y");
 
 d3.select("#combo-box").on("change", updateColor);
@@ -157,7 +166,7 @@ d3.csv("data/ConcentrationData.csv", function(data) {
 	console.log(stackedValues);
 
 	// Stacked area layout
-	area = d3.area()
+	var area = d3.area()
 		.curve(d3.curveCardinal)
 		.x(function(d)  { return x(d.data.Year); })
 		.y0(function(d) { return y(d[0]); })

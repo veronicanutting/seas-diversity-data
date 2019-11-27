@@ -47,7 +47,7 @@ queue()
             .style("font-size", "15px")
             .attr("alignment-baseline","middle");
 
-        var margin = {top: 10, right: 50, bottom: 30, left: 400};
+        var margin = {top: 10, right: 50, bottom: 30, left: 450};
 
         var width = 1000 - margin.left - margin.right,
             height = 600 - margin.top - margin.bottom;
@@ -90,7 +90,7 @@ queue()
         $("#play").click(playVis);
 
         function playVis() {
-            var id = window.setInterval(moveSlider, 1500);
+            var id = window.setInterval(moveSlider, 1000);
             var yr = 2007;
             function moveSlider() {
                 if(yr > 2018) {
