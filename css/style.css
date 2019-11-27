@@ -2,6 +2,7 @@
 h1 {
     padding-top: 100px;
     padding-bottom: 10px;
+    font-size: 7ex;
     color: maroon;
     text-align: center;
 }
@@ -21,6 +22,15 @@ h3 {
 
 h4 {
     padding-top: 10px;
+    font-weight: bold;
+}
+
+.vis-title {
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3ex;
 }
 
 img {
@@ -28,9 +38,10 @@ img {
     padding-bottom: 10px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: Verdana;
     font-weight: bolder;
+    text-align: center;
 }
 
 p {
@@ -107,4 +118,8 @@ p {
 #customize-title {
     padding-top: 60px;
     padding-bottom: 10px;
+}
+
+#sunburst {
+    padding-bottom: 20px;
 }
