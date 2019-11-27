@@ -1,19 +1,22 @@
 
 h1 {
     padding-top: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     color: maroon;
+    text-align: center;
 }
 
 h2 {
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom: 20px;
     color: maroon;
+    text-decoration: underline;
+    text-align: center;
 }
 
 h3 {
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 80px;
+    text-align: center;
 }
 
 h4 {
@@ -26,7 +29,12 @@ img {
 }
 
 h1, h2, h3, h4 {
-    font-family: "Arial Black";
+    font-family: Verdana;
+    font-weight: bolder;
+}
+
+p {
+    font-family: "Times New Roman";
 }
 
 .tooltip-circle {

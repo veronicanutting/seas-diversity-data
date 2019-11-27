@@ -45,6 +45,9 @@ var colorScale = d3.scaleOrdinal(d3.schemeReds[30])
 
 var parseTime = d3.timeParse("%Y");
 
+d3.select("#combo-box").on("change", updateColor);
+
+
 d3.csv("data/ConcentrationData.csv", function(data) {
 
 	datasetConcentration = data;
@@ -203,3 +206,10 @@ d3.csv("data/ConcentrationData.csv", function(data) {
 		.text("Year Awarded");
 
 });
+
+
+function updateColor() {
+	selected_data = d3.select("#combo-box").property("value");
+	console.log(selected_data);
+
+}
