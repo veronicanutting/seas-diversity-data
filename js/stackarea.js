@@ -40,17 +40,17 @@ var dataCategories = ["Classics", "Comparative Literature",
 	"Social Studies", "Sociology", "Studies of Women, Gender, and Sexuality",
 	"Special Concentration"];
 
-var colorScale = d3.scaleOrdinal(d3.schemeReds[30])
-	.domain(dataCategories);
+// var colorScale = d3.scaleOrdinal(d3.schemeReds[30])
+// 	.domain(dataCategories);
 
 // Try this!
-// var colors = dataCategories.map(function (d, i) {
-// 	return d3.interpolateReds(i / dataCategories.length);
-// });
-//
-// var colorScale = d3.scaleOrdinal()
-// 	.domain(dataCategories)
-// 	.range(colors);
+var colors = dataCategories.map(function (d, i) {
+	return d3.interpolateReds(i / dataCategories.length);
+});
+
+var colorScale = d3.scaleOrdinal()
+	.domain(dataCategories)
+	.range(colors);
 
 var parseTime = d3.timeParse("%Y");
 
@@ -146,7 +146,7 @@ d3.csv("data/ConcentrationData.csv", function(data) {
 		.attr("transform", "rotate(90)")
 		.attr("dy", "-.1em")
 		.style("text-anchor", "start")
-		.text("Degrees Awarded");
+		.text("Degrees");
 
 	svgArea.append("g")
 		.attr("class", "x-axis axis")
@@ -191,6 +191,8 @@ d3.csv("data/ConcentrationData.csv", function(data) {
 		.style("fill", function(d,i) {
 			return colorScale(dataCategories[i]);
 		})
+		.style("stroke", "black")
+		.style("stroke-width", 0.25)
 		.attr("d", function(d) {
 			return area(d);
 		})
@@ -200,10 +202,10 @@ d3.csv("data/ConcentrationData.csv", function(data) {
 		})
 		.on("mouseout", function(d) {
 			tooltip.text("");
-		})
-		.on("click", function(d){var nextColor = this.style.fill == "red" ? "white" : "red";
-			d3.select(this).style("fill", nextColor);
 		});
+		// .on("click", function(d){var nextColor = this.style.fill == "red" ? "white" : "red";
+		// 	d3.select(this).style("fill", nextColor);
+		// });
 
 	categories.exit().remove();
 
