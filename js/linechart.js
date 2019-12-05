@@ -8,7 +8,6 @@ var width_line = 700 - margin.left - margin.right,
 // Global variables
 var dataset = [];
 var selected_group;
-var grouped_data = [];
 var xScale;
 var xAxis;
 var yScale;
@@ -20,13 +19,25 @@ var svgLine = d3.select("#line-chart").append("svg")
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-// Listen for selectbox changes
+// Listen for select box changes
 d3.select("#concentration-box").on("change", updateVis);
 
 var parseTime = d3.timeParse("%Y");
 
+
+var valueline = d3.line()
+    .x(function(d) {
+        return xScale(d["Year Awarded"]);
+    })
+    .y(function(d) {
+        return yScale(d["Degrees Awarded"]);
+    });
+
+
+
+
 queue()
-    .defer(d3.json,"data/cons2.json")
+    .defer(d3.csv,"data/concentration_test.csv")
     .await(createVis);
 
 function createVis(error, data) {
@@ -38,50 +49,110 @@ function createVis(error, data) {
     dataset = data;
     dataset.forEach(function(d){
         d["Year Awarded"] = parseTime(d["Year Awarded"]);
+        d["Degrees Awarded"] = +d["Degrees Awarded"];
     });
+    console.log(dataset);
 
     // X Scale
     xScale = d3.scaleTime()
         .range([0, width_line])
         .domain(d3.extent(dataset, function(d) { return d["Year Awarded"]; }));
 
-    // X axis
-    xAxis = d3.axisBottom()
-        .scale(xScale);
-    svgLine.append("g")
-        .attr("class", "x-axis axis")
-        .attr("transform", "translate(0," + height_line + ")")
-        .call(xAxis);
-
-    // X axis label
-    svgLine.append("text")
-        .attr("class", "axis-title")
-        .attr("x", width_line)
-        .attr("y",  height_line + 40)
-        .style("text-anchor", "end")
-        .text("Year Awarded");
-
-    // X Scale
+    // Y Scale
     yScale = d3.scaleLinear()
-        .range([height_line, 0])
-        .domain([0,100]);
+        .domain([0, d3.max(dataset, function(d) { return d["Degrees Awarded"]; })])
+        .range([height_line, 0]);
 
-    // Y axis
-    yAxis = d3.axisLeft()
-        .scale(yScale);
-    svgLine.append("g")
-        .attr("class", "y-axis axis")
-        .call(yAxis);
+   // X axis
+   xAxis = d3.axisBottom()
+       .scale(xScale);
+   svgLine.append("g")
+       .attr("class", "x-axis axis")
+       .attr("transform", "translate(0," + height_line + ")")
+       .call(xAxis);
 
-    // Y axis label
-    svgLine.append("text")
-        .attr("class", "y label")
-        .attr("x", 0)
-        .attr("y", 40)
-        .attr("transform", "rotate(90)")
-        .attr("dy", "-.1em")
-        .style("text-anchor", "start")
-        .text("Degrees Awarded");
+   // X axis label
+   svgLine.append("text")
+       .attr("class", "axis-title")
+       .attr("x", width_line)
+       .attr("y",  height_line + 40)
+       .style("text-anchor", "end")
+       .text("Year Awarded");
+
+   // Y axis
+   yAxis = d3.axisLeft()
+       .scale(yScale);
+   svgLine.append("g")
+       .attr("class", "y-axis axis")
+       .call(yAxis);
+
+   // Y axis label
+   svgLine.append("text")
+       .attr("class", "y label")
+       .attr("x", 0)
+       .attr("y", 40)
+       .attr("transform", "rotate(90)")
+       .attr("dy", "-.1em")
+       .style("text-anchor", "start")
+       .text("Degrees Awarded");
+
+
+    // Nest the entries by concentration
+    var nested_data = d3.nest()
+        .key(function(d) {return d["Concentration"];})
+        .entries(dataset);
+    console.log(nested_data);
+
+    // Draw the line
+    var lines = svgLine.selectAll(".line")
+        .data(nested_data[0])
+        .enter()
+        .append("path")
+        .attr("class", "line")
+        .attr("fill", "none")
+        .attr("stroke", function(d){ return "blue" })
+        .attr("stroke-width", 1.5)
+        .attr("d", function(d){
+            return d3.line()
+                .x(function(d) { return xScale(d["Year Awarded"]); })
+                .y(function(d) { return yScale(d["Degrees Awarded"]); })
+                (d["Concentration"])
+        });
+
+
+
+    // Loop through each symbol / key
+    nested_data.forEach(function(d) {
+
+        svgLine.append("path")
+            .attr("class", "line")
+            .attr("fill", "none")
+            .attr("stroke", function(d){ return "blue" })
+            .attr("stroke-width", 1.5)
+            .attr("d", valueline(d));
+
+    });
+
+
+/*
+    // Draw the line
+    svgLine.selectAll(".line")
+        .data(grouped_data)
+        .enter()
+        .append("path")
+        .attr("fill", "none")
+        .attr("stroke", function(d){ return color(d.key) })
+        .attr("stroke-width", 1.5)
+        .attr("d", function(d){
+            return d3.line()
+                .x(function(d) { return xScale(d["Year Awarded"]); })
+                .y(function(d) { return yScale(+d.n); })
+                (d.values)
+        })
+
+ */
+
+
 
 }
 
@@ -90,6 +161,11 @@ function updateVis() {
     // Group data based on group selected
     selected_group = d3.select("#concentration-box").property("value");
     console.log(selected_group);
+
+
+
+
+    /*
     grouped_data = dataset.filter(function(d) {
         return d.Group == selected_group;
     });
@@ -131,5 +207,7 @@ function updateVis() {
                 .y(function(d) { return yScale(+d.n); })
                 (d.values)
         })
+
+     */
 
 }

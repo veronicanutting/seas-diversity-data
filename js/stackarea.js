@@ -57,7 +57,7 @@ var parseTime = d3.timeParse("%Y");
 d3.select("#combo-box").on("change", updateColor);
 
 
-d3.csv("data/ConcentrationData.csv", function(data) {
+d3.csv("data/oldConcentrationData.csv", function(data) {
 
 	datasetConcentration = data;
 	//console.log("hello");
