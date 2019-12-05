@@ -57,11 +57,11 @@ var parseTime = d3.timeParse("%Y");
 d3.select("#combo-box").on("change", updateColor);
 
 
-d3.csv("data/ConcentrationData.csv", function(data) {
+d3.csv("data/oldConcentrationData.csv", function(data) {
 
 	datasetConcentration = data;
-	console.log("hello");
-	console.log(datasetConcentration);
+	//console.log("hello");
+	//console.log(datasetConcentration);
 
 	datasetConcentration.forEach(function(d){
 
@@ -121,7 +121,7 @@ d3.csv("data/ConcentrationData.csv", function(data) {
 
 	});
 
-	console.log(datasetConcentration);
+	//console.log(datasetConcentration);
 
 	// Scales and axes
 	var x = d3.scaleTime()
@@ -163,7 +163,7 @@ d3.csv("data/ConcentrationData.csv", function(data) {
 
 	// Call shape function on the dataset
 	var stackedValues = stack(datasetConcentration);
-	console.log(stackedValues);
+	//console.log(stackedValues);
 
 	// Stacked area layout
 	var area = d3.area()
