@@ -8,8 +8,8 @@ function createVis(error, data){
     if(error) { console.log(error); };
 
     // set width, height, and radius
-    var width = 600,
-        height = 600,
+    var width = 550,
+        height = 550,
         radius = (Math.min(width, height) / 2) - 10; // lowest number divided by 2. Then subtract 10
 
     var formatNumber = d3.format(",d"); // formats floats
@@ -50,10 +50,22 @@ function createVis(error, data){
     })
 
     // define SVG element
-    var svg = d3.select("#sunburst").append("svg")
+    var element = d3.select("#sunburst").append("svg")
         .attr("width", width) // set width
         .attr("height", height) // set height
-        .append("g") // append g element
+
+    var defs = element.append("defs") // add pattern
+        .append("pattern")
+        .attr("id", "diagonal-stripe")
+        .attr("patternUnits", "userSpaceOnUse")
+        .attr("width", 6)
+        .attr("height", 6)
+        .append("path")
+        .attr("d", "M 0 0 L 0 10")
+        .attr('stroke-width', 2)
+        .attr("stroke", "black");
+
+    var svg = element.append("g") // append g element
         .attr("transform", "translate(" + width / 2 + "," + (height / 2) + ")");
 
     var tooltip = d3.tip()
@@ -77,7 +89,31 @@ function createVis(error, data){
         .enter().append("path")
         .attr("d", arc) // draw arcs
         .attr("class", "path")
-        .style("fill", function (d) { return (d.children ? d : d.parent).data.color; })
+        .style("fill",function(d) {
+            return (d.children ? d : d.parent).data.color;
+        })
+        .style("stroke", "white")
+        .style("stroke-width", 0.5)
+        .on("click", click)
+        .on('mouseover', tooltip.show)
+        .on('mouseout', tooltip.hide);
+
+    var path2 = svg.selectAll("#path2")
+        .data(partition(root).descendants()) // path for each descendant
+        .enter().append("path")
+        .attr("d", arc) // draw arcs
+        .attr("class", "path2")
+        .style("fill",function(d) {
+            if (d.data.name == "Female") {
+                return "url(#diagonal-stripe)";
+            }
+            else if (d.depth == 3 && d.parent.data.name == "Female") {
+                return "url(#diagonal-stripe)";
+            }
+            else {
+                return "none";
+            }
+        })
         .style("stroke", "white")
         .style("stroke-width", 0.5)
         .on("click", click)
@@ -104,10 +140,113 @@ function createVis(error, data){
                 return function(t) { x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); };
             })
             .selectAll("path")
+            //.selectAll("path2")
             .attrTween("d", function(d) { return function() { return arc(d); }; });
         d3.select(".total").text(d.value);
     }
 
+    // Legend
+    var svgContainer = d3.select("#legend2").append("svg")
+        .attr("width", 300)
+        .attr("height", 50);
+
+    var female = svgContainer.append("rect")
+        .attr("x", 10)
+        .attr("y", 15)
+        .attr("width", 15)
+        .attr("height", 15)
+        .attr("fill","url(#diagonal-stripe)")
+        .attr('stroke-width', 0.5)
+        .attr("stroke", "black");
+
+    var male = svgContainer.append("rect")
+        .attr("x", 150)
+        .attr("y", 15)
+        .attr("width", 15)
+        .attr("height", 15)
+        .attr("fill","white")
+        .attr('stroke-width', 0.5)
+        .attr("stroke", "black");
+
+    var femaleText = svgContainer.append("text")
+        .attr("x", 35)
+        .attr("y", 25)
+        .text("Female")
+        .style("font-size", "15px")
+        .attr("alignment-baseline","middle");
+
+    var maleText = svgContainer.append("text")
+        .attr("x", 175)
+        .attr("y", 25)
+        .text("Male")
+        .style("font-size", "15px")
+        .attr("alignment-baseline","middle");
+
+    var concentrations = d3.select("#concentrations").append("svg")
+        .attr("width", 500) // set width
+        .attr("height", 600); // set height
+
+    var data = partition(root).descendants();
+    var concentrationData = [];
+
+    data.forEach(function (d) {
+        if (d.depth == 1) {
+            concentrationData.push({Concentration: d.data.name, Color: d.data.color});
+        }
+    });
+
+    var data = partition(root).descendants();
+    var result = data.filter(function(d) {
+        return d.depth != 0;
+    });
+
+    var boxes = concentrations.selectAll("boxes")
+        .data(concentrationData)
+        .enter()
+        .append("rect")
+        .attr("x", 10)
+        .attr("y", function (d, i) {
+            return 50 * i;
+        })
+        .attr("width", 15)
+        .attr("height", 15)
+        .attr("fill",function(d) {
+            return d.Color;
+        })
+        .attr('stroke-width', 0.5)
+        .attr("stroke", "black")
+        .data(result)
+        .on("click", zoom);
+
+    // zoom on click
+    function zoom(d) {
+        svg.transition()
+            .duration(750) // duration of transition
+            .tween("scale", function() {
+                var xd = d3.interpolate(x.domain(), [d.x0, d.x1]),
+                    yd = d3.interpolate(y.domain(), [d.y0, 1]),
+                    yr = d3.interpolate(y.range(), [d.y0 ? (80) : 0, radius]);
+                return function(t) { x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); };
+            })
+            .selectAll("path")
+            .attrTween("d", function(d) { return function() { console.log(d); return arc(d); }; });
+
+        d3.select(".total").text(d.value);
+    }
+
+    var text = concentrations.selectAll("label")
+        .data(concentrationData)
+        .enter()
+        .append("text")
+        .attr("x", 35)
+        .attr("y", function (d, i) {
+            return 50 * i + 10;
+        })
+        .text(function (d) {
+            return d.Concentration;
+        })
+        .style("font-size", "12px")
+        .attr("alignment-baseline","middle");
 };
 
 

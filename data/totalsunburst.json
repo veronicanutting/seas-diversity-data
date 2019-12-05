@@ -8,7 +8,7 @@
       "children": [
         {
           "name": "Male",
-          "color": "#DE1212",
+          "color": "#cc0000",
           "children": [
             {
               "name": "International",
@@ -50,7 +50,7 @@
         },
         {
           "name": "Female",
-          "color": "#F02424",
+          "color": "#cc0000",
           "children": [
             {
               "name": "International",
@@ -98,7 +98,7 @@
       "children": [
         {
           "name": "Male",
-          "color": "#FF6262",
+          "color": "#ff5050",
           "children": [
             {"name": "International", "size": 2},
             {"name": "Unknown", "size": 0},
@@ -113,7 +113,7 @@
         },
         {
           "name":"Female",
-          "color": "#FF7474",
+          "color": "#ff5050",
           "children": [
             {"name": "International", "size": 4},
             {"name": "Unknown", "size": 0},
@@ -135,7 +135,7 @@
       "children": [
         {
           "name":"Male",
-          "color": "#FFDE12",
+          "color": "#ffcc00",
           "children": [
             {"name": "International", "size": 70},
             {"name": "Unknown", "size": 5},
@@ -150,7 +150,7 @@
         },
         {
           "name":"Female",
-          "color": "#F5C200",
+          "color": "#ffcc00",
           "children": [
             {"name": "International", "size": 24},
             {"name": "Unknown", "size": 3},
@@ -171,7 +171,7 @@
       "children": [
         {
           "name": "Male",
-          "color": "#FF7812",
+          "color": "#ff6600",
           "children": [
             {
               "name": "International",
@@ -213,7 +213,7 @@
         },
         {
           "name": "Female",
-          "color": "#FF8A24",
+          "color": "#ff6600",
           "children": [
             {
               "name": "International",
@@ -257,11 +257,11 @@
     },
     {
       "name": "Engineering Sciences (A.B.)",
-      "color": "#ffff99",
+      "color": "#e7e700",
       "children": [
         {
           "name": "Male",
-          "color": "#EDED87",
+          "color": "#e7e700",
           "children": [
             {
               "name": "International",
@@ -303,7 +303,7 @@
         },
         {
           "name": "Female",
-          "color": "#DBDB75",
+          "color": "#e7e700",
           "children": [
             {
               "name": "International",
@@ -351,7 +351,7 @@
       "children": [
         {
           "name": "Male",
-          "color": "#ADED6E",
+          "color": "#bfff80",
           "children": [
             {
               "name": "International",
@@ -393,7 +393,7 @@
         },
         {
           "name": "Female",
-          "color": "#9BDB5C",
+          "color": "#bfff80",
           "children": [
             {
               "name": "International",
@@ -441,7 +441,7 @@
       "children": [
         {
           "name": "Male",
-          "color": "#45DE45",
+          "color": "#33cc33",
           "children": [
             {
               "name": "International",
@@ -483,7 +483,7 @@
         },
         {
           "name": "Female",
-          "color": "#57F057",
+          "color": "#33cc33",
           "children": [
             {
               "name": "International",
@@ -531,7 +531,7 @@
       "children": [
         {
           "name": "Male",
-          "color": "#12D1FF",
+          "color": "#00bfff",
           "children": [
             {
               "name": "International",
@@ -573,7 +573,7 @@
         },
         {
           "name": "Female",
-          "color": "#24E3FF",
+          "color": "#00bfff",
           "children": [
             {
               "name": "International",
@@ -621,7 +621,7 @@
       "children": [
         {
           "name": "Male",
-          "color": "#4578FF",
+          "color": "#3366ff",
           "children": [
             {
               "name": "International",
@@ -663,7 +663,7 @@
         },
         {
           "name": "Female",
-          "color": "#578AFF",
+          "color": "#3366ff",
           "children": [
             {
               "name": "International",
@@ -711,7 +711,7 @@
       "children": [
         {
           "name": "Male",
-          "color": "#7878FF",
+          "color": "#6666ff",
           "children": [
             {
               "name": "International",
@@ -753,7 +753,7 @@
         },
         {
           "name": "Female",
-          "color": "#8A8AFF",
+          "color": "#6666ff",
           "children": [
             {
               "name": "International",
@@ -801,7 +801,7 @@
       "children": [
         {
           "name": "Male",
-          "color": "#AB45FF",
+          "color": "#9933ff",
           "children": [
             {
               "name": "International",
@@ -843,7 +843,7 @@
         },
         {
           "name": "Female",
-          "color": "#BD57FF",
+          "color": "#9933ff",
           "children": [
             {
               "name": "International",
@@ -891,7 +891,7 @@
       "children": [
         {
           "name": "Male",
-          "color": "#C512C5",
+          "color": "#b300b3",
           "children": [
             {
               "name": "International",
@@ -933,7 +933,7 @@
         },
         {
           "name": "Female",
-          "color": "#D724D7",
+          "color": "#b300b3",
           "children": [
             {
               "name": "International",
