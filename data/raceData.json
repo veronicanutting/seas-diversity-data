@@ -1,0 +1,90 @@
+[
+  {
+    "id": "group0",
+    "key": "International",
+    "values": {
+      "SEAS": 19.1,
+      "FAS": 12.1
+    }
+  },
+  {
+    "id": "group1",
+    "key": "Unknown",
+    "values": {
+      "SEAS": 1.8,
+      "FAS": 1.5
+    }
+  },
+  {
+    "id": "group2",
+    "key": "Hispanic",
+    "values": {
+      "SEAS": 8.6,
+      "FAS": 11.0
+    }
+  },
+  {
+    "id": "group3",
+    "key": "Native American",
+    "values": {
+      "SEAS": 0.1,
+      "FAS": 0.2
+    }
+  },
+  {
+    "id": "group4",
+    "key": "Asian",
+    "values": {
+      "SEAS": 26.0,
+      "FAS": 20.7
+    }
+  },
+  {
+    "id": "group5",
+    "key": "Black",
+    "values": {
+      "SEAS": 5.6,
+      "FAS": 8.5
+    }
+  },
+  {
+    "id": "group6",
+    "key": "Pacific Islander",
+    "values": {
+      "SEAS": 0.1,
+      "FAS": 0
+    }
+  },
+  {
+    "id": "group7",
+    "key": "White",
+    "values": {
+      "SEAS": 32.1,
+      "FAS": 38.8
+    }
+  },
+  {
+    "id": "group8",
+    "key": "Other",
+    "values": {
+      "SEAS": 6.6,
+      "FAS": 7.1
+    }
+  },
+  {
+    "id": "group9",
+    "key": "Male",
+    "values": {
+      "SEAS": 63.7,
+      "FAS": 51.2
+    }
+  },
+  {
+    "id": "group10",
+    "key": "Female",
+    "values": {
+      "SEAS": 36.3,
+      "FAS": 48.8
+    }
+  }
+]
