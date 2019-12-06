@@ -32,8 +32,8 @@ function createVis(error, data) {
             alpha: 0.5,
             spacing: 18
         },
-        leftTitle: "SEAS",
-        rightTitle: "FAS",
+        leftTitle: "SEAS (%)",
+        rightTitle: "FAS (%)",
         labelGroupOffset: 5,
         labelKeyOffset: 50,
         radius: 6,
