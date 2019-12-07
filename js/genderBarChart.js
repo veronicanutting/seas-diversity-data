@@ -160,6 +160,14 @@ queue()
         var xAxis = d3.axisBottom()
             .scale(x);
 
+        var axisText = svg.append("text")
+            .attr("class", "axis-title")
+            .attr("x", 35)
+            .attr("y", height)
+            .text("Concentrators")
+            .attr("font-size", "15px")
+            .attr("alignment-baseline","middle");
+
         var xAxisGroup = svg.append("g")
             .attr("class", "x-axis axis")
             .attr("transform", "translate(0," + height + ")");
