@@ -29,6 +29,7 @@
 					<div class="col-md-8">
 						<i>This project aims to visualize data collected within SEAS’ Diversity, Inclusion, and Belonging (DIB) committee in order to analyze representation and retention data within the School of Engineering and Applied Sciences at Harvard University. Understanding issues relating to DIB, especially in regards to representation in technology, is necessary for informed and effective policy-making. Displaying historical demographic breakdowns within concentrations, classes, and among different groups (undergraduates, graduate students, faculty, post-docs, etc.) can be useful for identifying trends and making sense of the current situation.</i></div>
 					<div class="col-md-4">
+						<!--image from https://www.seas.harvard.edu-->
 						<img src="images/SEASlogo.png" width="100%">
 					</div>
 				</div>
@@ -46,7 +47,7 @@
 						[placeholder text: Here we’ll talk a bit about the history of STEM at Harvard as well as DIB at Harvard. We’ll focus on how SEAS came to be and how it has changed and grown in the recent past. ]
 					</div>
 					<div class="col-md-4">
-						<!-- image from https://www.thecrimson.com/article/2017/4/19/SEAS-continues-measured-growth/-->
+						<!--image from https://www.thecrimson.com/article/2017/4/19/SEAS-continues-measured-growth/-->
 						<img src="images/SEASsign.jpg" width="100%">
 					</div>
 				</div>
@@ -97,7 +98,7 @@
 						[placeholder text: Now that we’ve learned about the creation and evolution of SEAS, let’s take a look at the numbers of today (2018). Here we will also emphasize the fact that while females have been consistently underrepresented in SEAS, they have consistently made up <a href="https://oir.harvard.edu/fact-book/enrollment">~50% of the Harvard student community overall</a>.]
 					</div>
 					<div class="col-md-4">
-						<!-- image from https://store.thecoop.com/school-of-engineering-and-applied-sciences-w-seas/ecomm-product-detail/1463/ -->
+						<!--image from https://store.thecoop.com/school-of-engineering-and-applied-sciences-w-seas/ecomm-product-detail/1463/-->
 						<img src="images/seas-hat.jpg" width="100%">
 					</div>
 				</div>
@@ -172,120 +173,181 @@
 				</div>
 			</div>
 		</div>
-		<div class="section" id="-section">
+		<div class="section" id="seas-vs-others-text">
 			<div class="container-fluid">
-
+				<div class="row">
+					<div class="col-md-6">
+						Ok, you see that not everyone is represented in SEAS. But is that normal? Are other schools/industries exhibiting similar numbers?
+						stats
+						[placeholder text: We explain how diverse Harvard SEAS is when compared to our peer Ivy institutions. We may also add in a sentence/statistic or two about MIT, Stanford, and other similar schools that are more STEM-focused. Finally, we may or may not lightly discuss demographic trends and DIB initiatives in the tech industry.]
+					</div>
+					<div class="col-md-6">
+						<ul>
+							<li>Great visualization on <a href="https://informationisbeautiful.net/visualizations/diversity-in-tech/">Diversity in Tech</a> (industry)</li>
+							<li>stat 2</li>
+							<li>stat 3</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-
-
-
-	<!--
-
-
-		<div class="row">
-			<div class="col-md-8">
+		<div class="section" id="dib-matters-because-text">
+			<div class="container-fluid">
 				<div class="row">
-					<h4>How does SEAS do in the broader context of Harvard FAS?</h4>
-					[placeholder text: We explain the relationship between Harvard College and SEAS. In particular, we highlight trends of growth within SEAS concentrations.]
-					<div class="vis-title">SEAS vs Harvard College Concentrations Over Time</div>
-					*** TODO: Fix bug in color scale ***
+					<div class="col-md-12">
+						Also climate survey… - even if not convinced that its a problem if students feel like they dont belong
+						You’ll surely agree with the countless studies that show diversity matters
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="seas-we-working-section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>The SEAS We Are Working Towards</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						Now that we understand the SEAS of the past and of today, let’s look ahead. With amazing projects like Allston campus and a general cultural buzz over tech, it’s a generally exciting time to be thinking about STEM.
+					</div>
+					<div class="col-md-4">
+						<!--image from https://harvardmagazine.com/2016/04/harvard-s-allston-science-and-engineering-complex-approved-->
+						<img src="images/allston.jpg" width="100%">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="visualization4-section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						Indeed, we see that Harvard SEAS concentrations are growing. More and more students are concentrating in SEAS.
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						Explore how different concentrations have grown over time.
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="vis-title">SEAS vs Harvard College Concentrations Over Time</div>
+					</div>
 				</div>
 				<div class="row" id="stack-chart"></div>
-			</div>
-			<div class="col-md-4">
-				<h4>What does SEAS look like in a greater context (compared to other colleges and such)?</h4>
-				[placeholder text: We explain how diverse Harvard SEAS is when compared to our peer Ivy institutions. We may also add in a sentence/statistic or two about MIT, Stanford, and other similar schools that are more STEM-focused. Finally, we may or may not lightly discuss demographic trends and DIB initiatives in the tech industry.]				<ul>
-				<li>Great visualization on <a href="https://informationisbeautiful.net/visualizations/diversity-in-tech/">Diversity in Tech</a> (industry)</li>
-					<li>stat 2</li>
-					<li>stat 3</li>
-				</ul>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-3">
-				<u>Concentration</u><br>
-				<label>
-					<select id="concentration-box">
-						<option value="Arts and Humanities">Arts and Humanities</option>
-						<option value="Engineering and Applied Sciences">Engineering and Applied Sciences</option>
-						<option value="Science">Science</option>
-						<option value="Social Science">Social Science</option>
-					</select>
-				</label>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-12">
-				<h4>What are the problems with the SEAS of today?</h4>
-				[placeholder text: We talk about studies on diversity as well as the results of the climate survey.]			</div>
-		</div>
-
-
-
-
-		<div class="row">
-			<div class="col-md-12">
-				<h2>The SEAS We Are Working Towards</h2>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-4">
-				<img src="images/intended.png" width="70%">
-				<br>From the <a href="https://college.harvard.edu/admissions/admissions-statistics">Brief Profile of the Admitted Class of 2023</a>.
-			</div>
-			<div class="col-md-8">
-				[placeholder text: We discuss current SEAS DIB initiatives.]
-			</div>
-
-		</div>
-
-
-		<div class="row">
-			<div class="col-md-6">
-				<h4>Next Steps</h4>
-				[placeholder text: We consider the implications of our work more broadly and propose next steps. We also discuss what is next for Harvard SEAS.]
-			</div>
-			<div class="col-md-6">
-				<img src="images/allston.jpg" width="100%">
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-12">
-				<h4>About US</h4>
-			</div>
-		</div>
-
-		<div class="row" id="about_us">
-			<div class="col-md-6">
 				<div class="row">
-					<div class="col-md-4">
-						<img src="images/jessica.jpg" width="100%">
-					</div>
-					<div class="col-md-8">
-						<i>I’m Jessica and I’m a junior in Pfoho studying Computer Science with a secondary in Educational Studies. Besides currently serving on Women in Computer Science Advocacy Board, I have been involved in WiCS in the past as Outreach Director and through the WECode Conference’s Programming Team. Outside of WiCS, I’m involved in the Kuumba Singers of Harvard College and Harvard College Faith and Action.</i>
+					<div class="col-md-12">
+						Footnote: This displays degrees awarded per year per concentration.
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
+		</div>
+		<div class="section" id="seas-growth-text">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-4">
-						<img src="images/veronica.jpg" width="100%">
+					<div class="col-md-12">
+						As we’ve seen, interest and participation in SEAS has grown significantly at Harvard over the past decade. SEAS has adopted for this growth by hiring 50 new faculty members and building a host of new facilities.
+						In the coming years, the size of the SEAS community is projected to continue to grow, and Harvard is planning a significant expansion of the campus that will include state-of-the-art teaching and research facilities for SEAS. The 500,000+ square foot Science and Engineering Complex located in Allson plans to open in Fall 2020.
 					</div>
-					<div class="col-md-8">
-						<i>Hello! My name is Veronica, and I’m a junior studying Computer Science with a Secondary in Government. Outside of the classroom, I work as a Course Assistant for CS50. I’m also on the Women in Computer Science Advocacy Council and involved in various Latinx groups (I’m half from West Virginia, half from Buenos Aires). I am also very interested in and committed to working on DIB issues at Harvard and beyond.</i>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="seas-future-text">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						Something exciting is happening. Look at these stats from the Brief Profile of the Admitted Class of 2023. We are in the right place and the right time to change and improve things.
+						https://www.seas.harvard.edu/about-us/school-overview/mission-vision
+						Serve society^^
+						Also 1st in vision is DIB
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="get-involved-text">
+			<div class="container-fluid">
+				<div class="row">
+					<h3>Get Involved</h3>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						Here are some resources to learn more about the actions SEAS is currently taking to work towards building a more diverse and inclusive community. These resources may be especially interesting for those curious about non-undergraduate groups within SEAS.
+
+						SEAS Diversity, Inclusion, and Belonging Strategic Plan
+						‘17 - ‘18 SEAS Diversity, Inclusion, and Belonging Report
+
+						** Next things we’ll be working on include
+						Gender breakdown across concentrations
+						Looking at class retention data
+						More
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="about-us-section">
+			<div class="container-fluid">
+				<div class="row">
+					<h3>About Us</h3>
+				</div>
+				<div class="row" id="about_us">
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-4">
+								<img src="images/jessica.jpg" width="100%">
+							</div>
+							<div class="col-md-8">
+								<i>I’m Jessica and I’m a junior in Pfoho studying Computer Science with a secondary in Educational Studies. Besides currently serving on Women in Computer Science Advocacy Board, I have been involved in WiCS in the past as Outreach Director and through the WECode Conference’s Programming Team. Outside of WiCS, I’m involved in the Kuumba Singers of Harvard College and Harvard College Faith and Action.</i>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-4">
+								<img src="images/veronica.jpg" width="100%">
+							</div>
+							<div class="col-md-8">
+								<i>Hello! My name is Veronica, and I’m a junior studying Computer Science with a Secondary in Government. Outside of the classroom, I work as a Course Assistant for CS50. I’m also on the Women in Computer Science Advocacy Council and involved in various Latinx groups (I’m half from West Virginia, half from Buenos Aires). I am also very interested in and committed to working on DIB issues at Harvard and beyond.</i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="resources-text">
+			<div class="container-fluid">
+				<div class="row">
+					<h3>Resources</h3>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						SEAS Website
+						American Society of Engineering Education
+						Harvard Office of Institutional Research
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="acknowledgements-text">
+			<div class="container-fluid">
+				<div class="row">
+					<h3>Acknowledgements</h3>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						Jess Eng and CS171 Teaching Staff
+						Joanne Kang
+						Alexis Stokes
+						Harvard Women in CS?
+						(anyone else??)
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	-->
 
+	<!-- For FullPage layout -->
 	<script src="js/fullpage.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
 
@@ -294,7 +356,6 @@
 	<script src="https://d3js.org/d3-color.v1.min.js"></script>
 	<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
 	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.min.js"></script>
