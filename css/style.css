@@ -2,12 +2,14 @@
 h1 {
     padding-top: 100px;
     padding-bottom: 10px;
-    font-size: 7ex;
+    font-size: 130px;
     color: maroon;
     text-align: center;
+    margin: 3ex;
 }
 
 h2 {
+    font-size: 80px;
     padding-top: 80px;
     padding-bottom: 20px;
     color: maroon;
@@ -16,13 +18,20 @@ h2 {
 }
 
 h3 {
-    padding-bottom: 80px;
+    padding: 80px;
+    font-size: 60px;
     text-align: center;
 }
 
 h4 {
     padding-top: 10px;
     font-weight: bold;
+}
+
+#intro-text, #seas-more-context-text, #seas-vs-others-text, #seas-growth-text {
+    font-size: 50px;
+    color: black;
+    padding: 45px;
 }
 
 .vis-title {

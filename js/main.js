@@ -5,10 +5,10 @@ var myFullpage = new fullpage('#fullpage', {
     //Navigation
     menu: '#menu',
     lockAnchors: false,
-    anchors:['firstPage', 'secondPage'],
+    anchors:['Home', 'Introduction', 'Historical_Context', 'Decade_Visualization', 'Exploring_SEAS'],
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ['firstSlide', 'secondSlide'],
+    navigationTooltips: ['Home', 'TEST'],
     showActiveTooltip: false,
     slidesNavigation: true,
     slidesNavPosition: 'bottom',
@@ -48,7 +48,8 @@ var myFullpage = new fullpage('#fullpage', {
     //Design
     controlArrows: true,
     verticalCentered: true,
-    sectionsColor : ['#ccc', '#fff'],
+    sectionsColor : ['#FFFFFF', '#8b0000', '#FFD5D3', '#FFFFFF', '#FFD5D3', '#FFFFFF', '#8b0000', '#FFD5D3', '#8b0000', '#FFD5D3',
+        '#FFFFFF', '#FFD5D3', '#8b0000'],
     paddingTop: '3em',
     paddingBottom: '10px',
     fixedElements: '#header, .footer',
