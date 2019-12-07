@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="row" id="customize-title">
+    <h4>If you'd like, tell us about you (or what you're interested in) so we can customize this experience.</h4>
+</div>
+
+<div class="row" id="customize">
+    <div class="col-md-3">
+        <u>Gender*</u><br>
+        <label>
+            <select id="gender-checkbox">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="other_genders">Other Genders</option>
+            </select>
+        </label><br>
+        <i>*The data available breaks down gender only in terms of the gender binary. </i>
+    </div>
+    <div class="col-md-3">
+        <u>Race**</u><br>
+        <label id="race-checkbox">
+            <input type="checkbox" name="race" value="asian"> Asian<br>
+            <input type="checkbox" name="race" value="black"> Black<br>
+            <input type="checkbox" name="race" value="hispanic"> Hispanic<br>
+            <input type="checkbox" name="race" value="international"> International<br>
+            <input type="checkbox" name="race" value="native_american"> Native American<br>
+            <input type="checkbox" name="race" value="other"> Other<br>
+            <input type="checkbox" name="race" value="pacific_islander"> Pacific Islander<br>
+            <input type="checkbox" name="race" value="unknown"> Unknown<br>
+            <input type="checkbox" name="race" value="white"> White<br>
+        </label><br>
+        <i>**The data available breaks down race only in terms of the above options. There is no mixed race option. Nonetheless, we are allowing our users to specify more than one category. </i>
+    </div>
+    <div class="col-md-3">
+        <u>School Level</u><br>
+        <label id="level-checkbox">
+            <input type="checkbox" name="level" value="undergraduate"> Undergraduate<br>
+            <input type="checkbox" name="level" value="graduate"> Graduate & Post-Graduate<br>
+            <input type="checkbox" name="level" value="staff"> Professors & Staff<br>
+        </label><br>
+    </div>
+    <div class="col-md-3">
+        <u>Concentration</u><br>
+        <label>
+            <select id="combo-box">
+                <option value="Classics">Classics</option>
+                <option value="Comparative Literature">Comparative Literature</option>
+                <option value="Comparative Study of Religion">Comparative Study of Religion</option>
+                <option value="East Asian Studies">East Asian Studies</option>
+                <option value="English">English</option>
+                <option value="need to add more">***TODO: add other concentrations***</option>
+            </select>
+        </label>
+    </div>
+</div>
+</body>
+</html>

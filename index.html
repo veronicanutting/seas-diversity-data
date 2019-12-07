@@ -12,95 +12,63 @@
 </head>
 <body>
 
-	<div class="container">
-
-		<div class="row">
-			<div class="col-md-12">
-				<h1>Working Towards Diversity, Inclusion and Belonging in Harvard SEAS</h1>
-				<h3>A CS171 Final Project by Jessica Edwards and Veronica Nutting</h3>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-8">
-				<i>This project aims to visualize data collected within SEAS’ Diversity, Inclusion, and Belonging (DIB) committee in order to analyze representation and retention data within the School of Engineering and Applied Sciences at Harvard University. Understanding issues relating to DIB, especially in regards to representation in technology, is necessary for informed and effective policy-making. Displaying historical demographic breakdowns within concentrations, classes, and among different groups (undergraduates, graduate students, faculty, post-docs, etc.) can be useful for identifying trends and making sense of the current situation.</i></div>
-			<div class="col-md-4">
-				<img src="images/SEASlogo.png" width="100%">
-			</div>
-		</div>
-
-
-		<div class="row" id="customize-title">
-			<h4>If you'd like, tell us about you (or what you're interested in) so we can customize this experience.</h4>
-		</div>
-
-		<div class="row" id="customize">
-			<div class="col-md-3">
-				<u>Gender*</u><br>
-				<label>
-					<select id="gender-checkbox">
-						<option value="female">Female</option>
-						<option value="male">Male</option>
-						<option value="other_genders">Other Genders</option>
-					</select>
-				</label><br>
-				<i>*The data available breaks down gender only in terms of the gender binary. </i>
-			</div>
-			<div class="col-md-3">
-				<u>Race**</u><br>
-				<label id="race-checkbox">
-					<input type="checkbox" name="race" value="asian"> Asian<br>
-					<input type="checkbox" name="race" value="black"> Black<br>
-					<input type="checkbox" name="race" value="hispanic"> Hispanic<br>
-					<input type="checkbox" name="race" value="international"> International<br>
-					<input type="checkbox" name="race" value="native_american"> Native American<br>
-					<input type="checkbox" name="race" value="other"> Other<br>
-					<input type="checkbox" name="race" value="pacific_islander"> Pacific Islander<br>
-					<input type="checkbox" name="race" value="unknown"> Unknown<br>
-					<input type="checkbox" name="race" value="white"> White<br>
-				</label><br>
-				<i>**The data available breaks down race only in terms of the above options. There is no mixed race option. Nonetheless, we are allowing our users to specify more than one category. </i>
-			</div>
-			<div class="col-md-3">
-				<u>School Level</u><br>
-				<label id="level-checkbox">
-					<input type="checkbox" name="level" value="undergraduate"> Undergraduate<br>
-					<input type="checkbox" name="level" value="graduate"> Graduate & Post-Graduate<br>
-					<input type="checkbox" name="level" value="staff"> Professors & Staff<br>
-				</label><br>
-			</div>
-			<div class="col-md-3">
-				<u>Concentration</u><br>
-				<label>
-					<select id="combo-box">
-						<option value="Classics">Classics</option>
-						<option value="Comparative Literature">Comparative Literature</option>
-						<option value="Comparative Study of Religion">Comparative Study of Religion</option>
-						<option value="East Asian Studies">East Asian Studies</option>
-						<option value="English">English</option>
-						<option value="need to add more">***TODO: add other concentrations***</option>
-					</select>
-				</label>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-12">
-				<h2>Understanding the History of SEAS</h2>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-8">
+	<div id="fullpage">
+		<div class="section" id="title-section">
+			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12">
-						[placeholder text: Here we’ll talk a bit about the history of STEM at Harvard as well as DIB at Harvard. We’ll focus on how SEAS came to be and how it has changed and grown in the recent past. ]
+						<h1>Working Towards Diversity, Inclusion and Belonging in Harvard SEAS</h1>
+						<h3>A CS171 Final Project by Jessica Edwards and Veronica Nutting</h3>
 					</div>
 				</div>
-				<br>
-				<div class="vis-title">A Decade of SEAS Undergrads</div>
-				<br>
-				<br>
+			</div>
+		</div>
+		<div class="section" id="intro-text">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-8">
+						<i>This project aims to visualize data collected within SEAS’ Diversity, Inclusion, and Belonging (DIB) committee in order to analyze representation and retention data within the School of Engineering and Applied Sciences at Harvard University. Understanding issues relating to DIB, especially in regards to representation in technology, is necessary for informed and effective policy-making. Displaying historical demographic breakdowns within concentrations, classes, and among different groups (undergraduates, graduate students, faculty, post-docs, etc.) can be useful for identifying trends and making sense of the current situation.</i></div>
+					<div class="col-md-4">
+						<img src="images/SEASlogo.png" width="100%">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="historical-context-section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>SEAS: Historical Context</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						[placeholder text: Here we’ll talk a bit about the history of STEM at Harvard as well as DIB at Harvard. We’ll focus on how SEAS came to be and how it has changed and grown in the recent past. ]
+					</div>
+					<div class="col-md-4">
+						<!-- image from https://www.thecrimson.com/article/2017/4/19/SEAS-continues-measured-growth/-->
+						<img src="images/SEASsign.jpg" width="100%">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="visualization1-section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						TEXT PRE VISUALIZATION
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						TEXT EXPLAINING VISUALIZATION
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="vis-title">A Decade of SEAS Undergrads</div>
+					</div>
+				</div>
 				<div class="row">
 					<div class="col-md-12">
 						<div id="slider"></div>
@@ -110,48 +78,110 @@
 						<div id="genderBarChart"></div>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-4">
 				<div class="row">
 					<div class="col-md-12">
-						<img src="images/SEASsign.jpg" width="100%">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<br>More information on Harvard SEAS:
-						<ul>
-							<li>Official <a href="https://www.seas.harvard.edu">website</a></li>
-							<li>SEAS <a href="https://en.wikipedia.org/wiki/Harvard_John_A._Paulson_School_of_Engineering_and_Applied_Sciences">Wikipedia page</a></li>
-							<li>Official Twitter <a href="https://twitter.com/hseas">account</a></li>
-							<li>SEAS YouTube <a href="https://www.youtube.com/channel/UCeOqa_ZbKo88RmL5z8Oz5Ww/feed">channel</a></li>
-							<li>Articles about SEAS in the <a href="https://www.thecrimson.com/search/?cx=013815813102981840311%3Aaw6l9tjs1a0&cof=FORID%3A10&ie=UTF-8&q=seas&sa=">Crimson</a></li>
-						</ul>
+						FOOTNOTE
 					</div>
 				</div>
 			</div>
 		</div>
-
-
-
-		<div class="row">
-			<div class="col-md-12">
-				<h2>Exploring the SEAS of Today</h2>
+		<div class="section" id="seas-of-today-section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Exploring the SEAS of Today</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						[placeholder text: Now that we’ve learned about the creation and evolution of SEAS, let’s take a look at the numbers of today (2018). Here we will also emphasize the fact that while females have been consistently underrepresented in SEAS, they have consistently made up <a href="https://oir.harvard.edu/fact-book/enrollment">~50% of the Harvard student community overall</a>.]
+					</div>
+					<div class="col-md-4">
+						<!-- image from https://store.thecoop.com/school-of-engineering-and-applied-sciences-w-seas/ecomm-product-detail/1463/ -->
+						<img src="images/seas-hat.jpg" width="100%">
+					</div>
+				</div>
 			</div>
 		</div>
-
-		<div class="row">
-			<div class="col-md-12">
-				[placeholder text: Now that we’ve learned about the creation and evolution of SEAS, let’s take a look at the numbers of today (2018). Here we will also emphasize the fact that while females have been consistently underrepresented in SEAS, they have consistently made up <a href="https://oir.harvard.edu/fact-book/enrollment">~50% of the Harvard student community overall</a>.]	</div>
+		<div class="section" id="visualization2-section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						TEXT PRE VISUALIZATION
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						TEXT EXPLAINING VISUALIZATION
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="vis-title">Breakdown of SEAS Undergrads in 2018 by Concentration, Gender and Race</div>
+					</div>
+				</div>
+				<div id="legend2"></div>
+				<div class="row">
+					<div class="col-md-5" id="concentrations"></div>
+					<div class="col-md-7" id="sunburst"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						FOOTNOTE
+					</div>
+				</div>
+			</div>
 		</div>
-
-		<br><div class="vis-title">Breakdown of SEAS Undergrads in 2018 by Concentration, Gender and Race</div><br>
-		*** TODO: Add explanation for how to use the sunburst visualization ***
-		<div id="legend2"></div>
-		<div class="row">
-			<div class="col-md-5" id="concentrations"></div>
-			<div class="col-md-7" id="sunburst"></div>
+		<div class="section" id="seas-more-context-text">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						You’ve likely noticed that many groups are still underrepresented in SEAS concentrations. But how striking of an issue is this? As we’ve previously explained, SEAS is a part of FAS … Thus we can better consider the situation of SEAS by zooming out and seeing how it compares to FAS and the wider Harvard community as a whole.
+					</div>
+				</div>
+			</div>
 		</div>
+		<div class="section" id="visualization3-section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						Consider this slope line chart which directly compares demographics in SEAS with Harvard FAS as a whole. Here we will also emphasize the fact that while females have been consistently underrepresented in SEAS, they have consistently made up ~50% of the Harvard student community overall.]					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						TEXT EXPLAINING VISUALIZATION
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="vis-title">SEAS vs FAS Slope charts</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div id="slopegraph"></div>
+					</div>
+					<div class="col-md-6">
+						<div id="slopegraph2"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						FOOTNOTE
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="-section">
+			<div class="container-fluid">
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--
 
 
 		<div class="row">
@@ -194,14 +224,7 @@
 				[placeholder text: We talk about studies on diversity as well as the results of the climate survey.]			</div>
 		</div>
 
-		<div class="row">
-			<div class="col-md-6">
-				<div id="slopegraph"></div>
-			</div>
-			<div class="col-md-6">
-				<div id="slopegraph2"></div>
-			</div>
-		</div>
+
 
 
 		<div class="row">
@@ -261,12 +284,17 @@
 			</div>
 		</div>
 	</div>
+	-->
+
+	<script src="js/fullpage.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
 
 	<!-- Load JS libraries: jQuery, bootstrap, D3 -->
 	<script src="https://unpkg.com/textures@1.2.0/dist/textures.js"></script>
 	<script src="https://d3js.org/d3-color.v1.min.js"></script>
 	<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
 	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.min.js"></script>
@@ -278,7 +306,6 @@
 	<script src="js/wNumb.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
 
-	<!-- Your implementation -->
 	<script src="js/barchart.js"></script>
 	<script src="js/areachart.js"></script>
 	<script src="js/sunburst.js"></script>
@@ -286,6 +313,7 @@
 	<script src="js/stackarea.js"></script>
 	<script src="js/slopegraph.js"></script>
 	<script src="js/slopegraph2.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
 </html>
