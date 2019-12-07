@@ -127,7 +127,8 @@ function createVis(error, data){
         .attr("text-anchor", "middle")
         .attr('font-size', '4em')
         .attr('y', 20)
-        .text(total);
+        .text(total)
+        .on("click", click);
 
     // zoom on click
     function click(d) {

@@ -1,6 +1,6 @@
 
 // Create SVG drawing area
-var margin = {top: 40, right: 60, bottom: 60, left: 60};
+var margin = {top: 40, right: 80, bottom: 60, left: 60};
 
 var width2 = 700 - margin.left - margin.right,
 	height2 = 700 - margin.top - margin.bottom;
@@ -178,11 +178,12 @@ d3.csv("data/newConcentrationData.csv", function(data) {
 		.style("text-anchor", "end")
 		.text("Year Awarded");
 
+	svgArea.append("text")
+		.attr("x", width2 - 90)
+		.attr("y", -width2 + 10)
+		.attr("transform", "rotate(90)")
+		.attr("dy", "-.1em")
+		.style("text-anchor", "start")
+		.text("SEAS")
+		.attr("font-size", "20px");
 });
-
-//
-// function updateColor() {
-// 	selected_data = d3.select("#combo-box").property("value");
-// 	console.log(selected_data);
-//
-// }
