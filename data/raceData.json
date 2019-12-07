@@ -70,21 +70,5 @@
       "SEAS": 6.6,
       "FAS": 7.1
     }
-  },
-  {
-    "id": "group9",
-    "key": "Male",
-    "values": {
-      "SEAS": 63.7,
-      "FAS": 51.2
-    }
-  },
-  {
-    "id": "group10",
-    "key": "Female",
-    "values": {
-      "SEAS": 36.3,
-      "FAS": 48.8
-    }
   }
 ]

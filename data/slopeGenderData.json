@@ -1,0 +1,18 @@
+[
+  {
+    "id": "group0",
+    "key": "Male",
+    "values": {
+      "SEAS": 63.7,
+      "FAS": 51.2
+    }
+  },
+  {
+    "id": "group1",
+    "key": "Female",
+    "values": {
+      "SEAS": 36.3,
+      "FAS": 48.8
+    }
+  }
+]
