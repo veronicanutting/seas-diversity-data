@@ -24,14 +24,14 @@ queue()
             .attr("y", 15)
             .attr("width", 15)
             .attr("height", 15)
-            .attr("fill","#b3504b");
+            .attr("fill","#ff0000");
 
         var male = svgContainer.append("rect")
             .attr("x", 150)
             .attr("y", 15)
             .attr("width", 15)
             .attr("height", 15)
-            .attr("fill","#f9abb5");
+            .attr("fill","#f98425");
 
         var femaleText = svgContainer.append("text")
             .attr("x", 35)

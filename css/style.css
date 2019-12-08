@@ -2,44 +2,50 @@
 h1 {
     padding-top: 100px;
     padding-bottom: 10px;
-    font-size: 130px;
+    font-size: 140px;
     color: maroon;
     text-align: center;
     margin: 3ex;
 }
 
 h2 {
-    font-size: 80px;
+    font-size: 120px;
     padding-top: 80px;
     padding-bottom: 20px;
     color: maroon;
-    text-decoration: underline;
     text-align: center;
 }
 
 h3 {
     padding: 80px;
-    font-size: 60px;
+    font-size: 65px;
     text-align: center;
 }
 
 h4 {
     padding-top: 10px;
+    font-size: 40px;
     font-weight: bold;
 }
 
-#intro-text, #seas-more-context-text, #seas-vs-others-text, #seas-growth-text {
+#intro-text, #seas-more-context-text,
+#seas-vs-others-text, #seas-growth-text,
+#dib-matters-text, #seas-future-text {
     font-size: 50px;
-    color: black;
+    color: white;
     padding: 45px;
+}
+
+#historical-context{
+    font-size: 25px;
+    padding: 45px
 }
 
 .vis-title {
     padding-top: 10px;
     font-weight: bold;
     text-align: center;
-    text-decoration: underline;
-    font-size: 3ex;
+    font-size: 60px;
 }
 
 img {
@@ -80,11 +86,11 @@ p {
 }
 
 .bar {
-    fill: #b3504b;
+    fill: #ff0000;
 }
 
 .newBar {
-    fill: #f9abb5;
+    fill: #f98425;
 }
 
 .axis {
