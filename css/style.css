@@ -28,6 +28,8 @@ h4 {
     font-weight: bold;
 }
 
+
+
 #intro-text, #seas-more-context-text,
 #seas-vs-others-text, #seas-growth-text,
 #dib-matters-text, #seas-future-text {
@@ -41,11 +43,27 @@ h4 {
     padding: 45px
 }
 
+.vis-text {
+    color: black;
+    font-size: 30px;
+}
+.vis-explanation {
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+}
+
 .vis-title {
     padding-top: 10px;
     font-weight: bold;
     text-align: center;
     font-size: 60px;
+}
+
+.vis-footnote {
+    color: black;
+    font-size: 30px;
+    font-style: italic;
 }
 
 img {
