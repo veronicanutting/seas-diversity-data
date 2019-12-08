@@ -35,7 +35,8 @@ h4 {
 #dib-matters-text, #seas-future-text {
     font-size: 50px;
     color: white;
-    padding: 45px;
+    font-style: italic;
+    padding: 60px;
 }
 
 #historical-context{
@@ -45,25 +46,31 @@ h4 {
 
 .vis-text {
     color: black;
-    font-size: 30px;
+    font-size: 40px;
+    padding: 30px;
+
 }
 .vis-explanation {
     color: black;
+    padding: 10px;
     font-size: 30px;
     font-style: italic;
 }
 
 .vis-title {
-    padding-top: 10px;
+    padding: 10px;
     font-weight: bold;
     text-align: center;
     font-size: 60px;
 }
 
 .vis-footnote {
-    color: black;
+    color: #303030;
+    padding: 10px;
     font-size: 30px;
     font-style: italic;
+    text-align: center;
+
 }
 
 img {
