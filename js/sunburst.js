@@ -173,14 +173,14 @@ function createVis(error, data){
         .attr("x", 35)
         .attr("y", 25)
         .text("Female")
-        .style("font-size", "25px")
+        .style("font-size", "20px")
         .attr("alignment-baseline","middle");
 
     var maleText = svgContainer.append("text")
         .attr("x", 175)
         .attr("y", 25)
         .text("Male")
-        .style("font-size", "25px")
+        .style("font-size", "20px")
         .attr("alignment-baseline","middle");
 
     var concentrations = d3.select("#concentrations").append("svg")
@@ -246,7 +246,7 @@ function createVis(error, data){
         .text(function (d) {
             return d.Concentration;
         })
-        .style("font-size", "25px")
+        .style("font-size", "20px")
         .attr("alignment-baseline","middle");
 };
 
