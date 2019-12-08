@@ -28,8 +28,6 @@ h4 {
     font-weight: bold;
 }
 
-
-
 #intro-text, #seas-more-context-text,
 #seas-vs-others-text, #seas-growth-text,
 #dib-matters-text, #seas-future-text {
@@ -40,8 +38,14 @@ h4 {
 }
 
 #historical-context{
-    font-size: 25px;
+    font-size: 28px;
     padding: 45px
+}
+
+.general-text {
+    font-size: 35px;
+    color: black;
+    padding: 80px;
 }
 
 .vis-text {
@@ -50,11 +54,13 @@ h4 {
     padding: 30px;
 
 }
+
 .vis-explanation {
     color: black;
     padding: 10px;
     font-size: 30px;
     font-style: italic;
+    text-align: center;
 }
 
 .vis-title {
@@ -92,6 +98,7 @@ p {
     fill: #96AB96;
 }
 
+
 .tooltip-title {
     display: block;
     margin-bottom: 5px;
@@ -119,14 +126,10 @@ p {
 }
 
 .axis {
-    font: 12px sans-serif;
+    font: 20px sans-serif;
     fill: #333;
 }
 
-/*.axis-title {*/
-/*    fill: #9C8B83;*/
-/*    font-size: 11px;*/
-/*}*/
 
 .axis path,
 .axis line {
@@ -136,11 +139,15 @@ p {
 }
 
 .x-axis {
-    font-size: 14px;
+    font-size: 25px;
 }
 
 .x-axis path {
     display: none;
+}
+
+.axis-title {
+    font-size: 25px;
 }
 
 #genderBarChart {
@@ -176,7 +183,7 @@ p {
 }
 
 .slope-label-left, .slope-label-right {
-    font-size: 16px;
+    font-size: 20px;
     cursor: default;
     font-weight: 400;
 }

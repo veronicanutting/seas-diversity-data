@@ -122,7 +122,7 @@ function createVis(error, data) {
         leftSlopeLabels.append("text")
             .attr("x", d => d.xLeftPosition)
             .attr("y", d => d.yLeftPosition)
-            .attr("dx", -config.labelKeyOffset)
+            .attr("dx", -10-config.labelKeyOffset)
             .attr("dy", 3)
             .attr("text-anchor", "end")
             .text(d => d.key);
@@ -151,7 +151,7 @@ function createVis(error, data) {
         rightSlopeLabels.append("text")
             .attr("x", d => d.xRightPosition)
             .attr("y", d => d.yRightPosition)
-            .attr("dx", config.labelKeyOffset)
+            .attr("dx", 10+config.labelKeyOffset)
             .attr("dy", 3)
             .attr("text-anchor", "start")
             .text(d => d.key);

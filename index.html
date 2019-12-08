@@ -58,7 +58,6 @@
 							<li>2015: Harvard Business School alumnus John Paulson donated $400 million to SEAS, the largest gift ever received by Harvard. SEAS is renamed the Harvard John A. Paulson School of Engineering and Applied Sciences in his honor</li>
 						</ul>
 						However, even while engineering and applied sciences have been very significant to Harvard’s history for a long time, the issue of diversity, inclusion, and belonging continues to be present despite SEAS’ growing influence on Harvard’s campus.
-
 					</div>
 					<div class="col-md-4">
 						<!--image from https://www.thecrimson.com/article/2017/4/19/SEAS-continues-measured-growth/-->
@@ -78,22 +77,29 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<div class="vis-explanation">
-							To use this visualization, click on the play button to see how the department has grown and changed over time. You can also move the slider around to focus on a particular year.
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
 						<div class="vis-title">A Decade of SEAS Undergrads</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
+						<div class="vis-explanation">
+							To use this visualization, click on the play button to see how the department has grown and changed over time.
+							<br>You can also move the slider around to focus on a particular year.
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-4">
 						<div id="slider"></div>
 						<br>
 						<button type="button" id="play">Play</button>
 						<div id="legend"></div>
+					</div>
+					<div class="col-md-7"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
 						<div id="genderBarChart"></div>
 					</div>
 				</div>
@@ -101,6 +107,8 @@
 					<div class="col-md-12">
 						<div class="vis-footnote">
 							This visualization shows gender breakdown of declared SEAS concentrators from 2012-2018 (<a href="http://profiles.asee.org/profiles/8130/screen/20>">link</a> to data)
+							<br><br>
+
 						</div>
 					</div>
 				</div>
@@ -115,11 +123,13 @@
 				</div>
 				<div class="row">
 					<div class="col-md-8">
-						Now that we’ve learned about the creation and evolution of SEAS, we’ll explore the SEAS of today. SEAS is working hard to address global challenges and serve society, missions that it cannot achieve without a goal to promote diversity, inclusion, and belonging when building its community and societal problems it hopes to solve.
-						<br>
-						The first vision listed on SEAS’ <a href="https://www.seas.harvard.edu/prospective-students/prospective-undergraduate-students/frequently-asked-questions-faqs">website</a> is focused on creating a diverse and inclusive community. In their vision for a “collaborative, tightly-knit community for scholars, educators and innovators,” SEAS hopes to be “a model for diversity and inclusion at Harvard and beyond.”
-						<br>
-						To execute this vision, SEAS has an <a href="https://www.seas.harvard.edu/office-diversity-inclusion-and-belonging">Office of Diversity, Inclusion and Belonging</a> that “provides strategic leadership, partnership, programs, and support toward the development, implementation, and ongoing evaluation of a Diversity, Inclusion, and Belonging Strategic Framework.”
+						<div class="general-text">
+							Now that we’ve learned about the creation and evolution of SEAS, we’ll explore the SEAS of today. SEAS is working hard to address global challenges and serve society, missions that it cannot achieve without a goal to promote diversity, inclusion, and belonging when building its community and societal problems it hopes to solve.
+							<br><br>
+							The first vision listed on SEAS’ <a href="https://www.seas.harvard.edu/prospective-students/prospective-undergraduate-students/frequently-asked-questions-faqs">website</a> is focused on creating a diverse and inclusive community. In their vision for a “collaborative, tightly-knit community for scholars, educators and innovators,” SEAS hopes to be “a model for diversity and inclusion at Harvard and beyond.”
+							<br><br>
+							To execute this vision, SEAS has an <a href="https://www.seas.harvard.edu/office-diversity-inclusion-and-belonging">Office of Diversity, Inclusion and Belonging</a> that “provides strategic leadership, partnership, programs, and support toward the development, implementation, and ongoing evaluation of a Diversity, Inclusion, and Belonging Strategic Framework.”
+						</div>
 					</div>
 					<div class="col-md-4">
 						<!--image from https://store.thecoop.com/school-of-engineering-and-applied-sciences-w-seas/ecomm-product-detail/1463/-->
@@ -139,20 +149,27 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<div class="vis-explanation">
-							This sunburst visualization is broken up into Concentration (inner ring), Gender (middle ring), and Race (outer ring). Click on each ring to zoom in to find out more about a specific concentration, gender within a concentration, and race within a gender for a specific concentration. Click the colors on the legend to zoom into a specific concentration. Finally, click on the innermost circle to zoom out of the current setting.
-						</div>
+						<div class="vis-title">Breakdown of SEAS Undergrads in 2018 by Concentration, Gender and Race</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<div class="vis-title">Breakdown of SEAS Undergrads in 2018 by Concentration, Gender and Race</div>
+						<div class="vis-explanation">
+							This sunburst visualization is broken up into Concentration (inner ring), Gender (middle ring), and Race (outer ring).
+							<br>Click on each ring to zoom in to find out more about a specific concentration, gender within a concentration, and race within a gender for a specific concentration.
+							<br>Click the colors on the legend to zoom into a specific concentration. Finally, click on the innermost circle to zoom out of the current setting.
+							<br><br>
+						</div>
 					</div>
 				</div>
-				<div id="legend2"></div>
 				<div class="row">
-					<div class="col-md-5" id="concentrations"></div>
-					<div class="col-md-7" id="sunburst"></div>
+					<div class="col-md-1"></div>
+					<div class="col-md-4" id="concentrations">
+						<div id="legend2"></div>
+
+					</div>
+					<div class="col-md-6" id="sunburst"></div>
+					<div class="col-md-1"></div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
@@ -179,22 +196,27 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12">
-						<div class="vis-explanation">Consider these slope line charts which directly compare demographics in Harvard SEAS with Harvard FAS using the demographics of undergraduate students in 2018. The slope chart on the left shows the racial breakdowns in SEAS versus FAS, while the slope chart on the right shows the gender breakdown.
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
 						<div class="vis-title">SEAS vs FAS Slope Charts</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-12">
+						<div class="vis-explanation">Consider these slope line charts which directly compare demographics in Harvard SEAS with Harvard FAS using the demographics of undergraduate students in 2018.
+							The slope chart on the left shows the racial breakdowns in SEAS versus FAS, while the slope chart on the right shows the gender breakdown.
+							<br><br>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-3">
 						<div id="slopegraph"></div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-2"></div>
+					<div class="col-md-3">
 						<div id="slopegraph2"></div>
 					</div>
+					<div class="col-md-1"></div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
@@ -227,7 +249,9 @@
 				</div>
 				<div class="row">
 					<div class="col-md-8">
-						Now that we understand the SEAS of the past and of today, let’s look ahead. With amazing projects like Allston campus and a general cultural buzz over tech, it’s a generally exciting time to be thinking about STEM. 					</div>
+						<div class="general-text">
+							Now that we understand the SEAS of the past and of today, let’s look ahead. With amazing projects like Allston campus and a general cultural buzz over tech, it’s a generally exciting time to be thinking about STEM. 					</div>
+					</div>
 					<div class="col-md-4">
 						<!--image from https://harvardmagazine.com/2016/04/harvard-s-allston-science-and-engineering-complex-approved-->
 						<img src="images/allston.jpg" width="100%">
@@ -247,16 +271,23 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<div class="vis-explanation">Explore how different concentrations have grown over time.
-						</div>
+						<div class="vis-title">SEAS vs Harvard College Concentrations Over Time</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<div class="vis-title">SEAS vs Harvard College Concentrations Over Time</div>
+						<div class="vis-explanation">Explore how different concentrations have grown over time.
+							<br><br>
+						</div>
 					</div>
 				</div>
-				<div class="row" id="stack-chart"></div>
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<div class="row" id="stack-chart"></div>
+					</div>
+					<div class="col-md-2"></div>
+				</div>
 				<div class="row">
 					<div class="col-md-12">
 						<div class="vis-footnote">This displays degrees awarded per year per concentration.</div>
@@ -291,23 +322,29 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						Here are some resources to learn more about the actions SEAS is currently taking to work towards building a more diverse and inclusive community. These resources also extend to provide information about the demographics and opinions of non-undergraduate groups within SEAS.
-						<ul>
-							<li><a href="https://www.seas.harvard.edu/office-diversity-inclusion-and-belonging">SEAS’ Office of Diversity, Inclusion, and Belonging</a></li>
-							<li><a href="https://www.seas.harvard.edu/media/78526/download">SEAS Diversity, Inclusion, and Belonging Strategic Plan </a></li>
-							<li><a href="https://www.seas.harvard.edu/media/75426/download">‘17 - ‘18 SEAS Diversity, Inclusion, and Belonging Report</a></li>
-							<li><a href="https://www.seas.harvard.edu/media/75436/download">2018 SEAS Campus Climate Survey Report</a> and <a href="https://www.seas.harvard.edu/media/75441/download">Climate Report Summary of Key Findings</a></li>
-						</ul>
+						<div class="general-text">
+							Here are some resources to learn more about the actions SEAS is currently taking to work towards building a more diverse and inclusive community. These resources also extend to provide information about the demographics and opinions of non-undergraduate groups within SEAS:
+							<br><br>
+							<ul>
+								<li><a href="https://www.seas.harvard.edu/office-diversity-inclusion-and-belonging">SEAS’ Office of Diversity, Inclusion, and Belonging</a></li>
+								<li><a href="https://www.seas.harvard.edu/media/78526/download">SEAS Diversity, Inclusion, and Belonging Strategic Plan </a></li>
+								<li><a href="https://www.seas.harvard.edu/media/75426/download">‘17 - ‘18 SEAS Diversity, Inclusion, and Belonging Report</a></li>
+								<li><a href="https://www.seas.harvard.edu/media/75436/download">2018 SEAS Campus Climate Survey Report</a> and <a href="https://www.seas.harvard.edu/media/75441/download">Climate Report Summary of Key Findings</a></li>
+							</ul>
+						</div>
 					</div>
 					<div class="col-md-6">
-						Here’s a list of SEAS-affiliated student organizations that have historically supported efforts to encourage more women, minorities, and underrepresented students in STEM:
-						<ul>
-							<li><a href="http://www.harvardwics.com/">Women in Computer Science</a></li>
-							<li><a href="http://harvardseasswe.us/">Harvard University SEAS Society of Women Engineers</a></li>
-							<li><a href="https://projects.iq.harvard.edu/hgwise/home">Harvard Graduate Women in Science and Engineering</a></li>
-							<li><a href="https://www.facebook.com/HSBSE/">Harvard College National Society of Black Engineers</a></li>
-							<li><a href="https://www.facebook.com/harvardseasshpe/">Harvard SEAS Society of Hispanic Professional Engineers</a></li>
-						</ul>
+						<div class="general-text">
+							Here’s a list of SEAS-affiliated student organizations that have historically supported efforts to encourage more women, minorities, and underrepresented students in STEM:
+							<br><br>
+							<ul>
+								<li><a href="http://www.harvardwics.com/">Women in Computer Science</a></li>
+								<li><a href="http://harvardseasswe.us/">Harvard University SEAS Society of Women Engineers</a></li>
+								<li><a href="https://projects.iq.harvard.edu/hgwise/home">Harvard Graduate Women in Science and Engineering</a></li>
+								<li><a href="https://www.facebook.com/HSBSE/">Harvard College National Society of Black Engineers</a></li>
+								<li><a href="https://www.facebook.com/harvardseasshpe/">Harvard SEAS Society of Hispanic Professional Engineers</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -324,7 +361,9 @@
 								<img src="images/jessica.jpg" width="100%">
 							</div>
 							<div class="col-md-8">
-								<i>I’m Jessica and I’m a junior in Pfoho studying Computer Science with a secondary in Educational Studies. Besides currently serving on Women in Computer Science Advocacy Board, I have been involved in WiCS in the past as Outreach Director and through the WECode Conference’s Programming Team. Outside of WiCS, I’m involved in the Kuumba Singers of Harvard College and Harvard College Faith and Action.</i>
+								<div class="general-text">
+									<i>I’m Jessica and I’m a junior in Pfoho studying Computer Science with a secondary in Educational Studies. Besides currently serving on Women in Computer Science Advocacy Board, I have been involved in WiCS in the past as Outreach Director and through the WECode Conference’s Programming Team. Outside of WiCS, I’m involved in the Kuumba Singers of Harvard College and Harvard College Faith and Action.</i>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -334,7 +373,9 @@
 								<img src="images/veronica.jpg" width="100%">
 							</div>
 							<div class="col-md-8">
-								<i>Hello! My name is Veronica, and I’m a junior studying Computer Science with a Secondary in Government. Outside of the classroom, I work as a Course Assistant for CS50. I’m also on the Women in Computer Science Advocacy Council and involved in various Latinx groups (I’m half from West Virginia, half from Buenos Aires). I am also very interested in and committed to working on DIB issues at Harvard and beyond.</i>
+								<div class="general-text">
+									<i>Hello! My name is Veronica, and I’m a junior studying Computer Science with a Secondary in Government. Outside of the classroom, I work as a Course Assistant for CS50. I’m also on the Women in Computer Science Advocacy Council and involved in various Latinx groups (I’m half from West Virginia, half from Buenos Aires). I am also very interested in and committed to working on DIB issues at Harvard and beyond.</i>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -348,7 +389,9 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						Data from the <a href="https://www.asee.org/">American Society of Engineering Education</a> and the <a href="https://oir.harvard.edu/">Harvard Office of Institutional Research</a>
+						<div class="general-text">
+							Data from the <a href="https://www.asee.org/">American Society of Engineering Education</a> and the <a href="https://oir.harvard.edu/">Harvard Office of Institutional Research</a>.
+						</div>
 					</div>
 				</div>
 			</div>
@@ -360,10 +403,12 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						Jess Eng and CS171 Teaching Staff
-						Joanne Kang
-						Alexis Stokes
-						Harvard Women in CS
+						<div class="general-text">
+						Jess Eng and <a href="https://www.cs171.org/2019/index.html">CS171 Teaching Staff</a><br><br>
+						Joanne Kang, Institutional Research Analyst at the Harvard Office of Institutional Research<br><br>
+						<a href="https://www.seas.harvard.edu/about-us/directory?search=%22Alexis%20J.%20Stokes%22">Alexis Stokes</a>, SEAS' Director of Diversity, Inclusion and Belonging<br><br>
+						Harvard Women in CS<br><br>
+						</div>
 					</div>
 				</div>
 			</div>

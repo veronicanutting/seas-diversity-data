@@ -2,8 +2,8 @@
 // Create SVG drawing area
 var margin = {top: 40, right: 80, bottom: 60, left: 60};
 
-var width2 = 700 - margin.left - margin.right,
-	height2 = 700 - margin.top - margin.bottom;
+var width2 = 1200 - margin.left - margin.right,
+	height2 = 1000 - margin.top - margin.bottom;
 
 var svgArea = d3.select("#stack-chart").append("svg")
 	.attr("width", width2 + margin.left + margin.right)
@@ -140,6 +140,7 @@ d3.csv("data/newConcentrationData.csv", function(data) {
 		.attr("class", "focus")
 		.attr("x", 50)
 		.attr("y", 0)
+		.attr("font-size", "35px")
 		.attr("dy", ".35em");
 
 
@@ -174,16 +175,18 @@ d3.csv("data/newConcentrationData.csv", function(data) {
 	svgArea.append("text")
 		.attr("class", "axis-title")
 		.attr("x", width2 / 2 + margin.left - 10)
-		.attr("y",  height2 + 40)
+		.attr("y",  height2 + 50)
 		.style("text-anchor", "end")
 		.text("Year Awarded");
 
 	svgArea.append("text")
-		.attr("x", width2 - 90)
+		.attr("x", width2 - 390)
 		.attr("y", -width2 + 10)
 		.attr("transform", "rotate(90)")
 		.attr("dy", "-.1em")
 		.style("text-anchor", "start")
 		.text("SEAS")
-		.attr("font-size", "20px");
+		.attr("font-size", "20px")
+		.attr("fill", "#ff0000");
+
 });

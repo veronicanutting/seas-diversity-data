@@ -8,8 +8,8 @@ function createVis(error, data){
     if(error) { console.log(error); };
 
     // set width, height, and radius
-    var width = 550,
-        height = 550,
+    var width = 750,
+        height = 750,
         radius = (Math.min(width, height) / 2) - 10; // lowest number divided by 2. Then subtract 10
 
     var formatNumber = d3.format(",d"); // formats floats
@@ -173,14 +173,14 @@ function createVis(error, data){
         .attr("x", 35)
         .attr("y", 25)
         .text("Female")
-        .style("font-size", "15px")
+        .style("font-size", "25px")
         .attr("alignment-baseline","middle");
 
     var maleText = svgContainer.append("text")
         .attr("x", 175)
         .attr("y", 25)
         .text("Male")
-        .style("font-size", "15px")
+        .style("font-size", "25px")
         .attr("alignment-baseline","middle");
 
     var concentrations = d3.select("#concentrations").append("svg")
@@ -246,7 +246,7 @@ function createVis(error, data){
         .text(function (d) {
             return d.Concentration;
         })
-        .style("font-size", "12px")
+        .style("font-size", "25px")
         .attr("alignment-baseline","middle");
 };
 
