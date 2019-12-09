@@ -49,5 +49,5 @@ genderBarChart.js - “A Decade of SEAS Undergrads”
 sunburst.js - “Breakdown of SEAS Undergrads in 2018”
 stackarea.js - “SEAS vs College Concentrations Over Time”
 slopegraph.js and slopegraph2.js - “SEAS vs FAS Slope Charts”
-Additionally, we initialize our “fullpage” layout (using fullpage.js which is not ours and is cited as such) in a file we created called main.js (which adapts code from the “fullpage” documentation and we cite this).
+Additionally, we initialize our “fullpage” layout (using fullpage.js which is not ours and is cited as such) in a file we created called layout-setup.js (which adapts code from the “fullpage” documentation and we cite this).
 
