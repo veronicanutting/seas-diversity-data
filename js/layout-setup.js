@@ -2,6 +2,9 @@
 // Adapted from https://github.com/alvarotrigo/fullPage.js/#fullpagejs
 
 var myFullpage = new fullpage('#fullpage', {
+
+    licenseKey: 'YOUR_KEY_HERE',
+
     //Navigation
     menu: '#menu',
     lockAnchors: false,
