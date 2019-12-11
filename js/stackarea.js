@@ -180,7 +180,7 @@ d3.csv("data/newConcentrationData.csv", function(data) {
 		.text("Year Awarded");
 
 	svgArea.append("text")
-		.attr("x", width2 - 390)
+		.attr("x", width2 - 170)
 		.attr("y", -width2 + 10)
 		.attr("transform", "rotate(90)")
 		.attr("dy", "-.1em")
