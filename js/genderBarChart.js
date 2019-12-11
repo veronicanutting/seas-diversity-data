@@ -37,20 +37,20 @@ queue()
             .attr("x", 35)
             .attr("y", 25)
             .text("Female")
-            .style("font-size", "25px")
+            .style("font-size", "15px")
             .attr("alignment-baseline","middle");
 
         var maleText = svgContainer.append("text")
             .attr("x", 175)
             .attr("y", 25)
             .text("Male")
-            .style("font-size", "25px")
+            .style("font-size", "15px")
             .attr("alignment-baseline","middle");
 
         var margin = {top: 10, right: 50, bottom: 30, left: 450};
 
-        var width = 1300 - margin.left - margin.right,
-            height = 600 - margin.top - margin.bottom;
+        var width = 900 - margin.left - margin.right,
+            height = 400 - margin.top - margin.bottom;
 
         var svg = d3.select("#genderBarChart").append("svg")
             .attr("width", width + margin.left + margin.right)

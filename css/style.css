@@ -1,6 +1,6 @@
 
 h1 {
-    padding-top: 100px;
+    padding-top: 40px;
     padding-bottom: 10px;
     font-size: 70px;
     color: maroon;
@@ -31,7 +31,7 @@ h4 {
 #intro-text, #seas-more-context-text,
 #seas-vs-others-text, #seas-growth-text,
 #dib-matters-text, #seas-future-text {
-    font-size: 25px;
+    font-size: 28px;
     color: white;
     font-style: italic;
     padding: 60px;
@@ -126,7 +126,7 @@ p {
 }
 
 .axis {
-    font: 20px sans-serif;
+    font: 10px sans-serif;
     fill: #333;
 }
 
@@ -139,7 +139,7 @@ p {
 }
 
 .x-axis {
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .x-axis path {
@@ -147,7 +147,7 @@ p {
 }
 
 .axis-title {
-    font-size: 25px;
+    font-size: 15px;
 }
 
 #genderBarChart {
@@ -172,7 +172,7 @@ p {
 }
 
 .title {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -183,7 +183,7 @@ p {
 }
 
 .slope-label-left, .slope-label-right {
-    font-size: 20px;
+    font-size: 15px;
     cursor: default;
     font-weight: 400;
 }

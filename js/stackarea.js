@@ -2,8 +2,8 @@
 // Create SVG drawing area
 var margin = {top: 40, right: 80, bottom: 60, left: 60};
 
-var width2 = 1200 - margin.left - margin.right,
-	height2 = 1000 - margin.top - margin.bottom;
+var width2 = 600 - margin.left - margin.right,
+	height2 = 500 - margin.top - margin.bottom;
 
 var svgArea = d3.select("#stack-chart").append("svg")
 	.attr("width", width2 + margin.left + margin.right)
@@ -140,7 +140,7 @@ d3.csv("data/newConcentrationData.csv", function(data) {
 		.attr("class", "focus")
 		.attr("x", 50)
 		.attr("y", 0)
-		.attr("font-size", "35px")
+		.attr("font-size", "20px")
 		.attr("dy", ".35em");
 
 

@@ -12,7 +12,7 @@ function createVis(error, data) {
     var margin = {top: 75, right: 250, bottom: 75, left: 250};
 
     var width = 700 - margin.left - margin.right,
-        height = 700 - margin.top - margin.bottom;
+        height = 500 - margin.top - margin.bottom;
 
     var svg = d3.select("#slopegraph2").append("svg")
         .attr("width", width + margin.left + margin.right)
