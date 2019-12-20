@@ -3,7 +3,7 @@
 
 var myFullpage = new fullpage('#fullpage', {
 
-    licenseKey: 'YOUR_KEY_HERE',
+    licenseKey: '?HG?$5K?i2',
 
     //Navigation
     menu: '#menu',
