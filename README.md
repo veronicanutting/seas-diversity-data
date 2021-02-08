@@ -1,10 +1,10 @@
-# cs171-finalproject
+# Working Towards Diversity, Inclusion and Belonging in Harvard SEAS
 
 Group Members
 * Jessica Edwards, Harvard '21
 * Veronica Nutting, Harvard '21
 
-Project Title: Working Towards Diversity, Inclusion and Belonging in Harvard SEAS
+Project Title: Working Towards Diversity, Inclusion and Belonging in Harvard SEAS, A CS171 Final Project
 
 Project GitHub: https://github.com/veronicanutting/cs171-finalproject
 Project Website (hosted on GitHub Pages): https://veronicanutting.github.io/cs171-finalproject/ 
