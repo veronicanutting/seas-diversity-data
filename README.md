@@ -4,6 +4,8 @@
 
 [Link](https://veronicanutting.github.io/seas-diversity-data/) to project website 
 
+Created by [Jessica Edwards](https://github.com/jessie9111) and Veronica Nutting
+
 **About the Project:**
 
 This project aims to visualize data in order to analyze representation and retention data within the School of Engineering and Applied Sciences at Harvard University. Understanding issues relating to DIB, especially in regards to representation in technology, is necessary for informed and effective policy-making. Displaying historical and present-day demographic breakdowns within concentrations and schools can be useful for identifying trends and making sense of the current situation.
